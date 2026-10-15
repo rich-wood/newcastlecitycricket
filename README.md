@@ -1,13 +1,13 @@
 # Newcastle City fixtures
 
-A one-page site listing every Newcastle City & Eastern Districts CC game for the current Wednesday–Tuesday week, with a venue map, PlayHQ game-centre links and Google Maps directions. GitHub refreshes it every Tuesday morning.
+A one-page site listing every Newcastle City & Eastern Districts CC game, with a venue map, PlayHQ game-centre links and Google Maps directions. Defaults to the current Wednesday–Tuesday week, with Past/Upcoming filters for the rest of the season. GitHub refreshes it every Tuesday morning.
 
 ## Files
 
 | File | What it does |
 |---|---|
-| `index.html` | The page. Plain HTML/CSS/JS, no build step. Reads `data.json`. |
-| `data.json` | This week's games (Wednesday to Tuesday). Rewritten by the script each run. |
+| `index.html` | The page. Plain HTML/CSS/JS, no build step. Reads `data.json`. Filters: All/Juniors/Seniors, and Past/This Week/Upcoming. |
+| `data.json` | Every game for the season, past and future. `from`/`to` mark the current Wednesday–Tuesday week, the default view. Rewritten by the script each run. |
 | `basemap.jpg` | Static OpenStreetMap image (zoom 12, lat −32.55 to −33.15, lng 151.35 to 151.95). Pins are placed on it from venue coordinates. |
 | `scripts/fetch-fixtures.mjs` | Node 18+ script, no packages. Finds the club's current seasons and teams on PlayHQ and writes the current week's games to `data.json`. |
 | `.github/workflows/update.yml` | Runs the script on a schedule or on demand, commits `data.json`, and publishes the site to GitHub Pages. |

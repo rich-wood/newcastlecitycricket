@@ -1,5 +1,6 @@
-// Fetches the current Wednesday–Tuesday week of fixtures for every Newcastle City team on PlayHQ
-// and writes them to data.json, which index.html reads.
+// Fetches every fixture (past and future) for every Newcastle City team on PlayHQ
+// and writes them to data.json, which index.html reads. `from`/`to` mark the current
+// Wednesday–Tuesday week, which index.html uses as its default view.
 //
 // Usage:  node scripts/fetch-fixtures.mjs [--out data.json] [--date YYYY-MM-DD]
 //   --date  pretend "today" is this date (Sydney time), handy for testing
@@ -89,14 +90,13 @@ async function main() {
   for (let i = 0; i < teams.length; i += 6) {
     await Promise.all(teams.slice(i, i + 6).map(async t => {
       const r = await gq(Q_FIX, { teamID: t.id });
-      let any = false, grade = '';
+      let anyThisWeek = false, grade = '';
       for (const rd of r.data?.discoverTeamFixture || []) {
         grade = rd.grade.name;
         const se = rd.grade.season, co = se.competition;
         for (const g of rd.fixture?.games || []) {
           const dt = g.allocation?.dateTimeList?.length ? g.allocation.dateTimeList : [{ date: g.date, time: g.allocation?.time }];
-          if (!dt.some(x => x.date >= FROM && x.date <= TO)) continue;
-          any = true;
+          if (dt.some(x => x.date >= FROM && x.date <= TO)) anyThisWeek = true;
           const c = g.allocation?.court, v = c?.venue;
           games.push({
             team: t.name,
@@ -111,13 +111,13 @@ async function main() {
           });
         }
       }
-      if (!any) idle.push({ team: t.name, grade });
+      if (!anyThisWeek) idle.push({ team: t.name, grade });
     }));
   }
 
-  const out = { generated: new Date().toISOString(), from: FROM, to: TO, games, idle };
+  const out = { generated: new Date().toISOString(), today: TODAY, from: FROM, to: TO, games, idle };
   await writeFile(OUT, JSON.stringify(out, null, 1) + '\n');
-  console.log(`Wrote ${OUT}: ${games.length} games from ${FROM} to ${TO}, from ${teams.length} teams.`);
+  console.log(`Wrote ${OUT}: ${games.length} games total (week shown: ${FROM} to ${TO}), from ${teams.length} teams.`);
   const tbc = games.filter(g => g.venue === 'TBC' || g.home === 'TBC' || g.away === 'TBC');
   if (tbc.length) console.log(`Note: ${tbc.length} game(s) have a TBC venue or opponent.`);
 }

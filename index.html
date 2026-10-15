@@ -110,6 +110,11 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
     <button class="chip" id="f-sr" data-f="sr" aria-pressed="false">Seniors</button>
     <span class="count" id="count"></span>
   </div>
+  <div class="bar" role="group" aria-label="Time range">
+    <button class="chip" id="w-past" data-w="past" aria-pressed="false">Past</button>
+    <button class="chip" id="w-week" data-w="week" aria-pressed="true">This Week</button>
+    <button class="chip" id="w-upcoming" data-w="upcoming" aria-pressed="false">Upcoming</button>
+  </div>
   <section class="mapbox" aria-label="Venue map">
     <div class="map" id="map">
       <img id="base" src="basemap.jpg" width="1748" height="2080" alt="Map of Newcastle, Lake Macquarie and Port Stephens">
@@ -142,14 +147,13 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
   const fmtDay=s=>d(s).toLocaleDateString('en-AU',{weekday:'long',day:'numeric',month:'long'});
   const fmtShort=s=>d(s).toLocaleDateString('en-AU',{weekday:'short',day:'numeric',month:'short'});
   const fmtTime=t=>{if(!t)return['TBC',''];let[h,m]=t.split(':').map(Number);const ap=h>=12?'PM':'AM';h=h%12||12;return[h+':'+String(m).padStart(2,'0'),ap]};
-  $('title').textContent='Fixtures · '+fmtShort(data.from)+' – '+fmtShort(data.to);
   const gen=new Date(data.generated);
   $('meta').textContent='Pulled from PlayHQ on '+gen.toLocaleString('en-AU',{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+'. Check the game centre for late changes.';
 
   const isJr=g=>/Junior/i.test(g.assoc);
   const label=g=>g.team==='Newcastle City'?g.grade:g.team.replace(/^Newcastle City\s+/,'');
   const rows=[];
-  data.games.forEach((g,gi)=>{for(const dt of g.dates){ if(dt.date<data.from||dt.date>data.to) continue;
+  data.games.forEach((g,gi)=>{for(const dt of g.dates){
     const home=g.home===g.team; rows.push({...g,id:'g'+gi+dt.date,date:dt.date,time:dt.time||'',home,opp:home?g.away:g.home});}});
   rows.sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time)||label(a).localeCompare(label(b),undefined,{numeric:true}));
   const mapUrl=r=>r.lat&&r.lng?'https://www.google.com/maps/search/?api=1&query='+r.lat+','+r.lng:'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(r.venue+', '+r.address);
@@ -238,13 +242,22 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
   map.addEventListener('mouseleave',()=>{const t=map.querySelector('.tip');if(t&&!t.dataset.sticky)closeTip()});
 
   let filter='all'; try{filter=localStorage.getItem('ncc-filter')||'all'}catch(e){}
+  let when='week'; try{when=localStorage.getItem('ncc-when')||'week'}catch(e){}
   function render(){
-    document.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',c.dataset.f===filter));
-    const list=rows.filter(r=>filter==='all'||(filter==='jr')===isJr(r));
+    document.querySelectorAll('[data-f]').forEach(c=>c.setAttribute('aria-pressed',c.dataset.f===filter));
+    document.querySelectorAll('[data-w]').forEach(c=>c.setAttribute('aria-pressed',c.dataset.w===when));
+    if(when==='week')$('title').textContent='Fixtures · '+fmtShort(data.from)+' – '+fmtShort(data.to);
+    else if(when==='upcoming')$('title').textContent='Upcoming fixtures';
+    else $('title').textContent='Past fixtures';
+    const inRange=r=>when==='week'?(r.date>=data.from&&r.date<=data.to):when==='past'?r.date<data.from:r.date>data.to;
+    let list=rows.filter(r=>(filter==='all'||(filter==='jr')===isJr(r))&&inRange(r));
+    if(when==='past')list=list.slice().reverse();
     $('count').textContent=list.length+' game'+(list.length===1?'':'s');
+    $('idle').hidden=when!=='week'||!idleHtml;
     closeTip(true); byDayAll={}; list.forEach(r=>(byDayAll[r.date]=byDayAll[r.date]||[]).push(r));
     buildVenues(list); fit();
-    if(!list.length){$('days').innerHTML='<div class="empty">No games listed on PlayHQ for this week.</div>';return}
+    if(!list.length){const msg=when==='week'?'No games listed on PlayHQ for this week.':when==='past'?'No past games found.':'No upcoming games found.';
+      $('days').innerHTML='<div class="empty">'+msg+'</div>';return}
     $('days').innerHTML=Object.keys(byDayAll).sort().map(day=>{
       const bySlot={}; byDayAll[day].forEach(r=>(bySlot[r.time]=bySlot[r.time]||[]).push(r));
       return '<section class="day"><h2>'+esc(fmtDay(day))+'</h2>'+Object.keys(bySlot).sort().map(t=>{
@@ -264,16 +277,16 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
       el.addEventListener('mouseleave',()=>{const t=map.querySelector('.tip');if(t&&t.dataset.sticky)return;pinLayer.querySelectorAll('.pin').forEach(p=>p.classList.remove('on'))});
     });
   }
-  document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{filter=c.dataset.f;try{localStorage.setItem('ncc-filter',filter)}catch(e){}render()}));
-  if(img.complete) render(); else img.addEventListener('load',render,{once:true}), img.addEventListener('error',render,{once:true});
+  document.querySelectorAll('[data-f]').forEach(c=>c.addEventListener('click',()=>{filter=c.dataset.f;try{localStorage.setItem('ncc-filter',filter)}catch(e){}render()}));
+  document.querySelectorAll('[data-w]').forEach(c=>c.addEventListener('click',()=>{when=c.dataset.w;try{localStorage.setItem('ncc-when',when)}catch(e){}render()}));
 
   const idle=(data.idle||[]).filter(i=>i.grade);
   const nofix=(data.idle||[]).filter(i=>!i.grade).length;
-  if(idle.length||nofix){
-    $('idle').hidden=false;
-    $('idle').innerHTML='<h3>No games this week</h3><ul>'+idle.map(i=>'<li>'+esc(i.team==='Newcastle City'?i.grade:i.team.replace(/^Newcastle City\s+/,'')+' ('+i.grade+')')+'</li>').join('')+
-      (nofix?'<li>'+nofix+' more team'+(nofix===1?' has':'s have')+' no fixture published on PlayHQ yet</li>':'')+'</ul>';
-  }
+  const idleHtml=(idle.length||nofix)?('<h3>No games this week</h3><ul>'+idle.map(i=>'<li>'+esc(i.team==='Newcastle City'?i.grade:i.team.replace(/^Newcastle City\s+/,'')+' ('+i.grade+')')+'</li>').join('')+
+      (nofix?'<li>'+nofix+' more team'+(nofix===1?' has':'s have')+' no fixture published on PlayHQ yet</li>':'')+'</ul>'):'';
+  if(idleHtml)$('idle').innerHTML=idleHtml;
+
+  if(img.complete) render(); else img.addEventListener('load',render,{once:true}), img.addEventListener('error',render,{once:true});
 })();
 </script>
 </body>
