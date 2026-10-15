@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Newcastle City Fixtures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column — header, filter bar, venue map, then days with a time rail */
+:root{color-scheme:light;
+  --bg:#f3f6f9; --surface:#ffffff; --fg:#13213a; --muted:#5b6b82; --line:#dbe3ec;
+  --navy:#12284a; --sky:#2f86c4; --home:#1d7a4f; --away:#8a5a12;
+  --home-bg:#e3f3ea; --away-bg:#f8eedc; --hl:#fff6d6;
+  --pin-sr:#12284a; --pin-jr:#2f86c4; --pin-ring:#ffffff; --map-filter:none;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1524; --surface:#132037; --fg:#e6edf6; --muted:#9aaac0; --line:#24344f;
+  --navy:#cfe2f7; --sky:#6db7ea; --home:#6fd3a0; --away:#e7b866;
+  --home-bg:#16382a; --away-bg:#3a2c14; --hl:#2a3550; --map-filter:brightness(.82) saturate(.85); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1524; --surface:#132037; --fg:#e6edf6; --muted:#9aaac0; --line:#24344f;
+  --navy:#cfe2f7; --sky:#6db7ea; --home:#6fd3a0; --away:#e7b866;
+  --home-bg:#16382a; --away-bg:#3a2c14; --hl:#2a3550; --map-filter:brightness(.82) saturate(.85); color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.45}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:24px}
+header{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:flex-end;justify-content:space-between}
+.head{display:flex;flex-direction:column;gap:6px;min-width:0}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sky);font-size:.95rem}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);line-height:1.02;margin:0;color:var(--navy);text-wrap:balance}
+.meta{color:var(--muted);font-size:.92rem}
+.upd{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.btn{font:600 1rem var(--display);letter-spacing:.05em;text-transform:uppercase;padding:8px 16px;border-radius:6px;border:1px solid var(--navy);background:var(--navy);color:var(--bg);cursor:pointer}
+.btn:disabled{opacity:.55;cursor:default}
+.upd-msg{font-size:.85rem;color:var(--muted);max-width:30ch;text-align:right}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:600 .95rem var(--display);letter-spacing:.04em;text-transform:uppercase;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);color:var(--bg);border-color:var(--navy)}
+.chip:focus-visible,a:focus-visible,.btn:focus-visible,.pin:focus-visible,.zb:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.count{color:var(--muted);font-size:.9rem;margin-left:auto}
+
+/* map */
+.mapbox{display:flex;flex-direction:column;gap:6px}
+.map{position:relative;height:clamp(320px,62vw,500px);overflow:hidden;border-radius:8px;border:1px solid var(--line);background:#e8e4da;touch-action:none;cursor:grab;user-select:none}
+.map.drag{cursor:grabbing}
+.map img{position:absolute;left:0;top:0;transform-origin:0 0;max-width:none;filter:var(--map-filter);pointer-events:none}
+.pin{position:absolute;width:26px;height:26px;margin:-26px 0 0 -13px;border:0;padding:0;background:none;cursor:pointer}
+.pin span{position:absolute;inset:0;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--c);border:2px solid var(--pin-ring);box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.pin b{position:relative;font:700 .78rem var(--display);color:#fff;line-height:24px}
+.pin.on span{background:#d9822b}
+.tip{position:absolute;z-index:5;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.18);padding:10px 12px;width:min(300px,calc(100% - 24px));max-height:calc(100% - 16px);overflow:auto;font-size:.88rem;pointer-events:auto}
+.tip h4{margin:0 0 4px;font:700 1.05rem var(--display);color:var(--navy)}
+.tip ul{list-style:none;margin:6px 0;padding:0;display:flex;flex-direction:column;gap:4px}
+.tip li{display:grid;grid-template-columns:62px 1fr;gap:6px}
+.tip .t{font-variant-numeric:tabular-nums;color:var(--sky);font-weight:600}
+.tip a{color:var(--sky);font-weight:500;text-decoration:none}
+.zoom{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px;z-index:4}
+.zb{width:32px;height:32px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--fg);font:700 1.1rem var(--body);cursor:pointer}
+.attr{font-size:.75rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;justify-content:space-between}
+.legend{display:flex;gap:12px;align-items:center}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+
+/* list */
+.day h2{font-family:var(--display);font-weight:700;font-size:1.6rem;margin:0 0 12px;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px}
+.slot{display:grid;grid-template-columns:72px 1fr;gap:12px;padding-block:10px;border-top:1px solid var(--line)}
+.slot:first-of-type{border-top:0}
+.time{font-family:var(--display);font-weight:600;font-size:1.35rem;color:var(--sky);font-variant-numeric:tabular-nums;line-height:1.1;padding-top:10px}
+.time small{display:block;font-size:.8rem;color:var(--muted);letter-spacing:.06em}
+.games{display:flex;flex-direction:column;gap:8px;min-width:0}
+.game{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0;transition:background .2s}
+.game.hl{background:var(--hl)}
+.top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.team{font-weight:600;font-size:1.05rem}
+.ha{font:700 .75rem var(--display);letter-spacing:.08em;padding:2px 7px;border-radius:4px}
+.ha.H{background:var(--home-bg);color:var(--home)}
+.ha.A{background:var(--away-bg);color:var(--away)}
+.sub{color:var(--muted);font-size:.88rem}
+.links{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.92rem}
+.links a,.links button.lk{color:var(--sky);text-decoration:none;font-weight:500;background:none;border:0;padding:0;font:inherit;font-weight:500;cursor:pointer}
+.links a:hover,.links button.lk:hover{text-decoration:underline}
+.idle{color:var(--muted);font-size:.92rem}
+.idle h3{font-family:var(--display);font-weight:600;font-size:1.1rem;letter-spacing:.04em;text-transform:uppercase;color:var(--fg);margin:0 0 6px}
+.idle ul{margin:0;padding-left:18px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:20px;color:var(--muted)}
+@media (max-width:480px){.slot{grid-template-columns:1fr;gap:6px}.time{padding-top:0}.time small{display:inline;margin-left:6px}.upd{align-items:flex-start}.upd-msg{text-align:left}}
+@media (prefers-reduced-motion:reduce){.game{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="head">
+      <div class="eyebrow">Newcastle City &amp; Eastern Districts CC</div>
+      <h1 id="title">This week.s fixtures</h1>
+      <div class="meta" id="meta">Loading fixtures from PlayHQ…</div>
+    </div>
+    <div class="upd" id="upd" hidden>
+      <button class="btn" id="update">Update now</button>
+      <div class="upd-msg" id="upd-msg" aria-live="polite"></div>
+    </div>
+  </header>
+  <div class="bar" role="group" aria-label="Filter">
+    <button class="chip" id="f-all" data-f="all" aria-pressed="true">All</button>
+    <button class="chip" id="f-jr" data-f="jr" aria-pressed="false">Juniors</button>
+    <button class="chip" id="f-sr" data-f="sr" aria-pressed="false">Seniors</button>
+    <span class="count" id="count"></span>
+  </div>
+  <section class="mapbox" aria-label="Venue map">
+    <div class="map" id="map">
+      <img id="base" src="basemap.jpg" width="1748" height="2080" alt="Map of Newcastle, Lake Macquarie and Port Stephens">
+      <div id="pins"></div>
+      <div class="zoom"><button class="zb" id="zin" aria-label="Zoom in">+</button><button class="zb" id="zout" aria-label="Zoom out">−</button><button class="zb" id="zfit" aria-label="Fit all games">⤢</button></div>
+    </div>
+    <div class="attr"><span class="legend"><span><i class="dot" style="background:var(--pin-sr)"></i>Seniors</span><span><i class="dot" style="background:var(--pin-jr)"></i>Juniors</span><span id="offmap"></span></span><span>Map © OpenStreetMap contributors</span></div>
+  </section>
+  <main id="days"></main>
+  <section class="idle" id="idle" hidden></section>
+</div>
+
+<script>
+(async function(){
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  
+  /* ---- Update now: shown only after opening the page once with ?admin. Opens the GitHub Actions workflow (needs write access to the repo) ---- */
+  const REPO=(()=>{const m=location.hostname.match(/^([^.]+)\.github\.io$/);const p=location.pathname.split('/').filter(Boolean)[0];
+    return m?(m[1]+'/'+(p&&!p.includes('.')?p:m[1]+'.github.io')):null})();
+  let admin=false;try{if(/[?&]admin\b/.test(location.search))localStorage.setItem('ncc-admin','1');admin=localStorage.getItem('ncc-admin')==='1'}catch(e){}
+  if(REPO&&admin){$('upd').hidden=false;
+    $('update').addEventListener('click',()=>{window.open('https://github.com/'+REPO+'/actions/workflows/update.yml','_blank','noopener');
+      $('upd-msg').textContent='On GitHub, click "Run workflow". This page updates about two minutes later; reload it then.';});}
+
+  let data;
+  try{data=await fetch('data.json?'+Date.now(),{cache:'no-store'}).then(r=>r.json())}
+  catch(e){$('meta').textContent='Could not load the fixture data. Refresh the page to try again.';return}
+  const d=s=>new Date(s+'T00:00:00');
+  const fmtDay=s=>d(s).toLocaleDateString('en-AU',{weekday:'long',day:'numeric',month:'long'});
+  const fmtShort=s=>d(s).toLocaleDateString('en-AU',{weekday:'short',day:'numeric',month:'short'});
+  const fmtTime=t=>{if(!t)return['TBC',''];let[h,m]=t.split(':').map(Number);const ap=h>=12?'PM':'AM';h=h%12||12;return[h+':'+String(m).padStart(2,'0'),ap]};
+  $('title').textContent='Fixtures · '+fmtShort(data.from)+' – '+fmtShort(data.to);
+  const gen=new Date(data.generated);
+  $('meta').textContent='Pulled from PlayHQ on '+gen.toLocaleString('en-AU',{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+'. Check the game centre for late changes.';
+
+  const isJr=g=>/Junior/i.test(g.assoc);
+  const label=g=>g.team==='Newcastle City'?g.grade:g.team.replace(/^Newcastle City\s+/,'');
+  const rows=[];
+  data.games.forEach((g,gi)=>{for(const dt of g.dates){ if(dt.date<data.from||dt.date>data.to) continue;
+    const home=g.home===g.team; rows.push({...g,id:'g'+gi+dt.date,date:dt.date,time:dt.time||'',home,opp:home?g.away:g.home});}});
+  rows.sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time)||label(a).localeCompare(label(b),undefined,{numeric:true}));
+  const mapUrl=r=>r.lat&&r.lng?'https://www.google.com/maps/search/?api=1&query='+r.lat+','+r.lng:'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(r.venue+', '+r.address);
+  const dirUrl=r=>'https://www.google.com/maps/dir/?api=1&destination='+(r.lat&&r.lng?r.lat+','+r.lng:encodeURIComponent(r.venue+', '+r.address));
+
+  /* ---- map projection (basemap = OSM zoom 12, lat -32.55..-33.15, lng 151.35..151.95) ---- */
+  const Z=12, W=151.35, N=-32.55, IW=1748, IH=2080;
+  const wx=lng=>(lng+180)/360*256*2**Z;
+  const wy=lat=>{const r=lat*Math.PI/180;return(1-Math.log(Math.tan(r)+1/Math.cos(r))/Math.PI)/2*256*2**Z};
+  const X0=wx(W),Y0=wy(N);
+  const toImg=(lat,lng)=>[wx(+lng)-X0,wy(+lat)-Y0];
+  const map=$('map'),img=$('base'),pinLayer=$('pins');
+  let view={s:.5,tx:0,ty:0},venues=[],openKey=null;
+
+  function clampView(){const w=map.clientWidth,h=map.clientHeight;const min=Math.max(w/IW,h/IH);
+    view.s=Math.min(2,Math.max(min,view.s));view.tx=Math.min(0,Math.max(w-IW*view.s,view.tx));view.ty=Math.min(0,Math.max(h-IH*view.s,view.ty));}
+  function place(){clampView();img.style.transform=`translate(${view.tx}px,${view.ty}px) scale(${view.s})`;
+    drawPins(); const t=map.querySelector('.tip'); if(t) posTip(t);}
+  /* group venues whose pins would overlap at the current zoom */
+  let clusters=[],lastSig='';
+  function drawPins(){
+    const pts=venues.map(v=>({v,x:v.x*view.s+view.tx,y:v.y*view.s+view.ty}));const cl=[];
+    pts.forEach(p=>{const c=cl.find(c=>Math.hypot(c.x-p.x,c.y-p.y)<26);if(c){c.items.push(p);c.x=c.items.reduce((s,i)=>s+i.x,0)/c.items.length;c.y=c.items.reduce((s,i)=>s+i.y,0)/c.items.length}else cl.push({x:p.x,y:p.y,items:[p]})});
+    clusters=cl.map(c=>({key:c.items.map(i=>i.v.key).sort().join('|'),vs:c.items.map(i=>i.v),x:c.x,y:c.y}));
+    const sig=clusters.map(c=>c.key).join('#');
+    if(sig!==lastSig){lastSig=sig;
+      pinLayer.innerHTML=clusters.map(c=>{const gs=c.vs.flatMap(v=>v.games);const sr=gs.some(g=>!isJr(g));
+        return '<button class="pin" data-key="'+esc(c.key)+'" style="--c:var('+(sr?'--pin-sr':'--pin-jr')+')" aria-label="'+esc(c.vs.map(v=>v.venue).join(', ')+': '+gs.length+' game'+(gs.length>1?'s':''))+'"><span></span><b>'+gs.length+'</b></button>'}).join('');
+      pinLayer.querySelectorAll('.pin').forEach(bindPin);
+      if(openKey){const k=clusters.find(c=>c.key.split('|').some(x=>openKey.split('|').includes(x)));const t=map.querySelector('.tip');if(k&&t){t.dataset.key=k.key;t.innerHTML=tipHtml(k);openKey=k.key}}
+      pinLayer.querySelectorAll('.pin').forEach(p=>p.classList.toggle('on',p.dataset.key===openKey));
+    }
+    pinLayer.querySelectorAll('.pin').forEach((p,i)=>{p.style.left=clusters[i].x+'px';p.style.top=clusters[i].y+'px'});
+  }
+  function bindPin(p){
+    p.addEventListener('mouseenter',()=>{const t=map.querySelector('.tip');if(!t||!t.dataset.sticky)showTip(p.dataset.key,false)});
+    p.addEventListener('mouseleave',()=>{setTimeout(()=>{const t2=map.querySelector('.tip');if(t2&&!t2.dataset.sticky&&!t2.matches(':hover')&&!p.matches(':hover'))closeTip(true)},150)});
+    p.addEventListener('click',()=>{const c=clusters.find(c=>c.key===p.dataset.key);if(c&&c.vs.length>1&&view.s<1.6){
+        const xs=c.vs.map(v=>v.x),ys=c.vs.map(v=>v.y);const cx=(Math.min(...xs)+Math.max(...xs))/2,cy=(Math.min(...ys)+Math.max(...ys))/2;
+        view.s=Math.min(2,view.s*2);view.tx=map.clientWidth/2-cx*view.s;view.ty=map.clientHeight/2-cy*view.s;closeTip(true);place();return;}
+      showTip(p.dataset.key,true)});
+  }
+  function fit(){const w=map.clientWidth,h=map.clientHeight;const pts=venues.map(v=>[v.x,v.y]);
+    if(!pts.length){view={s:Math.max(w/IW,h/IH),tx:0,ty:0};return place()}
+    let [a,b,c,e]=[Math.min(...pts.map(p=>p[0])),Math.min(...pts.map(p=>p[1])),Math.max(...pts.map(p=>p[0])),Math.max(...pts.map(p=>p[1]))];
+    const pad=50, s=Math.min((w-2*pad)/Math.max(c-a,1),(h-2*pad)/Math.max(e-b,1),1.4);
+    view.s=s;view.tx=w/2-(a+c)/2*s;view.ty=h/2-(b+e)/2*s;place();}
+  function zoomAt(f,cx,cy){const ns=Math.min(2,Math.max(.2,view.s*f));view.tx=cx-(cx-view.tx)*ns/view.s;view.ty=cy-(cy-view.ty)*ns/view.s;view.s=ns;place();}
+  $('zin').onclick=()=>zoomAt(1.4,map.clientWidth/2,map.clientHeight/2);
+  $('zout').onclick=()=>zoomAt(1/1.4,map.clientWidth/2,map.clientHeight/2);
+  $('zfit').onclick=fit;
+  map.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();const r=map.getBoundingClientRect();zoomAt(e.deltaY<0?1.2:1/1.2,e.clientX-r.left,e.clientY-r.top)},{passive:false});
+  let drag=null;
+  map.addEventListener('pointerdown',e=>{if(e.target.closest('.pin,.tip,.zoom'))return;drag={x:e.clientX,y:e.clientY,tx:view.tx,ty:view.ty,moved:false};map.setPointerCapture(e.pointerId);map.classList.add('drag')});
+  map.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>3)drag.moved=true;view.tx=drag.tx+dx;view.ty=drag.ty+dy;place()});
+  map.addEventListener('pointerup',e=>{if(drag&&!drag.moved)closeTip();drag=null;map.classList.remove('drag')});
+  new ResizeObserver(()=>place()).observe(map);
+
+  function tipHtml(c){
+    return c.vs.map(v=>'<h4>'+esc(v.venue)+'</h4><div class="sub">'+esc(v.address)+'</div><ul>'+v.games.map(r=>{const[hm,ap]=fmtTime(r.time);
+      return '<li><span class="t">'+(Object.keys(byDayAll).length>1?d(r.date).toLocaleDateString('en-AU',{weekday:'short'})+' ':'')+hm+' '+ap+'</span><span><a href="'+esc(r.gameUrl)+'" target="_blank" rel="noopener">'+esc(label(r))+'</a> v '+esc(r.opp)+(r.court&&r.court!==r.venue?' <span class="sub">('+esc(r.court)+')</span>':'')+'</span></li>'}).join('')+
+      '</ul><div class="links"><a href="'+esc(dirUrl(v.games[0]))+'" target="_blank" rel="noopener">Directions</a><a href="'+esc(mapUrl(v.games[0]))+'" target="_blank" rel="noopener">Open in Google Maps</a></div>').join('<hr style="border:0;border-top:1px solid var(--line);margin:10px 0">')+
+      (c.vs.length>1?'<div class="sub" style="margin-top:6px">Click the pin to zoom in.</div>':'');
+  }
+  function posTip(t){const v=clusters.find(c=>c.key===t.dataset.key);if(!v)return;const w=map.clientWidth,h=map.clientHeight;
+    const x=v.x,y=v.y;const tw=t.offsetWidth,th=t.offsetHeight;
+    let l=Math.min(Math.max(8,x-tw/2),w-tw-8),tp;
+    if(y-th-34>=8)tp=y-th-34; else if(y+8+th<=h-8)tp=y+8;
+    else{tp=Math.min(Math.max(8,y-th/2),h-th-8);l=(x+20+tw<=w-8)?x+20:Math.max(8,x-20-tw);}
+    t.style.left=l+'px';t.style.top=Math.max(8,tp)+'px';}
+  function showTip(key,sticky){closeTip(true);const c=clusters.find(c=>c.key===key)||clusters.find(c=>c.key.split('|').includes(key));if(!c)return;
+    const t=document.createElement('div');t.className='tip';t.dataset.key=c.key;t.dataset.sticky=sticky?'1':'';t.innerHTML=tipHtml(c);map.appendChild(t);posTip(t);
+    openKey=c.key;highlight(c.vs.flatMap(v=>v.games.map(g=>g.id)),c.key);}
+  function closeTip(){const t=map.querySelector('.tip');if(!t)return;t.remove();openKey=null;highlight([],null);}
+  function highlight(ids,key){document.querySelectorAll('.game').forEach(el=>el.classList.toggle('hl',ids.includes(el.dataset.id)));
+    pinLayer.querySelectorAll('.pin').forEach(p=>p.classList.toggle('on',p.dataset.key===key));}
+
+  let byDayAll={};
+  function buildVenues(list){
+    const m={};list.forEach(r=>{if(!r.lat||!r.lng)return;const k=r.venue;(m[k]=m[k]||{key:k,venue:r.venue,address:r.address,games:[],lat:0,lng:0}).games.push(r)});
+    venues=Object.values(m).map(v=>{v.lat=v.games.reduce((s,g)=>s+ +g.lat,0)/v.games.length;v.lng=v.games.reduce((s,g)=>s+ +g.lng,0)/v.games.length;[v.x,v.y]=toImg(v.lat,v.lng);return v});
+    const off=venues.filter(v=>v.x<0||v.y<0||v.x>IW||v.y>IH);venues=venues.filter(v=>!off.includes(v));
+    $('offmap').textContent=off.length?'Off map: '+off.map(v=>v.venue).join(', '):'';
+    lastSig='';
+  }
+  map.addEventListener('mouseleave',()=>{const t=map.querySelector('.tip');if(t&&!t.dataset.sticky)closeTip()});
+
+  let filter='all'; try{filter=localStorage.getItem('ncc-filter')||'all'}catch(e){}
+  function render(){
+    document.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',c.dataset.f===filter));
+    const list=rows.filter(r=>filter==='all'||(filter==='jr')===isJr(r));
+    $('count').textContent=list.length+' game'+(list.length===1?'':'s');
+    closeTip(true); byDayAll={}; list.forEach(r=>(byDayAll[r.date]=byDayAll[r.date]||[]).push(r));
+    buildVenues(list); fit();
+    if(!list.length){$('days').innerHTML='<div class="empty">No games listed on PlayHQ for this week.</div>';return}
+    $('days').innerHTML=Object.keys(byDayAll).sort().map(day=>{
+      const bySlot={}; byDayAll[day].forEach(r=>(bySlot[r.time]=bySlot[r.time]||[]).push(r));
+      return '<section class="day"><h2>'+esc(fmtDay(day))+'</h2>'+Object.keys(bySlot).sort().map(t=>{
+        const [hm,ap]=fmtTime(t);
+        return '<div class="slot"><div class="time">'+hm+'<small>'+ap+'</small></div><div class="games">'+bySlot[t].map(r=>{
+          const court=r.court&&r.court!==r.venue?' · '+r.court:'';
+          return '<article class="game" data-id="'+r.id+'" data-venue="'+esc(r.venue)+'"><div class="top"><span class="team">'+esc(label(r))+'</span><span class="ha '+(r.home?'H':'A')+'">'+(r.home?'HOME':'AWAY')+'</span><span>v '+esc(r.opp)+'</span></div>'+
+            '<div class="sub">'+esc(r.team==='Newcastle City'?r.round:r.grade+' · '+r.round)+' · '+esc(r.format||'')+'</div>'+
+            '<div class="links"><a href="'+esc(mapUrl(r))+'" target="_blank" rel="noopener">'+esc(r.venue+court)+'</a>'+(r.lat?'<button class="lk" data-show="'+esc(r.venue)+'">Show on map</button>':'')+'<a href="'+esc(r.gameUrl)+'" target="_blank" rel="noopener">Game centre</a><a href="'+esc(r.teamUrl)+'" target="_blank" rel="noopener">Team fixture</a></div></article>';
+        }).join('')+'</div></div>';
+      }).join('')+'</section>';
+    }).join('');
+    document.querySelectorAll('[data-show]').forEach(b=>b.addEventListener('click',()=>{const v=venues.find(v=>v.key===b.dataset.show);if(!v)return;
+      view.s=Math.max(view.s,1);view.tx=map.clientWidth/2-v.x*view.s;view.ty=map.clientHeight/2-v.y*view.s;place();showTip(v.key,true);map.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'})}));
+    document.querySelectorAll('.game').forEach(el=>{
+      el.addEventListener('mouseenter',()=>{const t=map.querySelector('.tip');if(t&&t.dataset.sticky)return;pinLayer.querySelectorAll('.pin').forEach(p=>p.classList.toggle('on',p.dataset.key===el.dataset.venue))});
+      el.addEventListener('mouseleave',()=>{const t=map.querySelector('.tip');if(t&&t.dataset.sticky)return;pinLayer.querySelectorAll('.pin').forEach(p=>p.classList.remove('on'))});
+    });
+  }
+  document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{filter=c.dataset.f;try{localStorage.setItem('ncc-filter',filter)}catch(e){}render()}));
+  if(img.complete) render(); else img.addEventListener('load',render,{once:true}), img.addEventListener('error',render,{once:true});
+
+  const idle=(data.idle||[]).filter(i=>i.grade);
+  const nofix=(data.idle||[]).filter(i=>!i.grade).length;
+  if(idle.length||nofix){
+    $('idle').hidden=false;
+    $('idle').innerHTML='<h3>No games this week</h3><ul>'+idle.map(i=>'<li>'+esc(i.team==='Newcastle City'?i.grade:i.team.replace(/^Newcastle City\s+/,'')+' ('+i.grade+')')+'</li>').join('')+
+      (nofix?'<li>'+nofix+' more team'+(nofix===1?' has':'s have')+' no fixture published on PlayHQ yet</li>':'')+'</ul>';
+  }
+})();
+</script>
+</body>
+</html>

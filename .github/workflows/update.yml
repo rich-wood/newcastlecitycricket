@@ -1,0 +1,58 @@
+name: Update fixtures
+
+on:
+  schedule:
+    # Tuesday 6:58am Sydney daylight time (cron is in UTC: Monday 19:58).
+    # Add more lines to run more often, e.g. Friday 3pm AEDT = '0 4 * * 5'.
+    - cron: '58 19 * * 1'
+  workflow_dispatch:       # "Run workflow" button on GitHub = Update now
+  push:
+    branches: [main]       # republish when the page itself is edited
+    paths-ignore: ['data.json']
+
+permissions:
+  contents: write          # commit the new data.json
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch this week's fixtures from PlayHQ
+        if: github.event_name != 'push'
+        run: node scripts/fetch-fixtures.mjs --out data.json
+
+      - name: Commit data.json if it changed
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "fixtures-bot"
+          git config user.email "fixtures-bot@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Fixtures for $(jq -r .from data.json)"
+          git push
+
+      - name: Stage site files (only what the page needs)
+        run: mkdir site-out && cp index.html data.json basemap.jpg site-out/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site-out
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
