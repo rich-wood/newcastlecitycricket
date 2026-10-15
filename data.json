@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T23:26:23.342Z",
+ "generated": "2026-10-15T23:27:44.112Z",
  "today": "2026-10-16",
  "from": "2026-10-14",
  "to": "2026-10-20",
@@ -54,314 +54,22 @@
   },
   {
    "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
    "comp": "NDCA Senior Cricket",
    "assoc": "Newcastle District Cricket Association Inc.",
    "round": "Round 1",
    "dates": [
     {
      "date": "2026-10-10",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Toronto Workers",
-   "format": "One Day",
-   "status": "Final",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/e7dcb910",
-   "venue": "Learmonth Park (HAMILTON SOUTH)",
-   "court": "Learmonth Park",
-   "address": "Gordon Avenue, HAMILTON SOUTH, NSW, 2303",
-   "lat": "-32.9313987995401",
-   "lng": "151.749086380004"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Belmont",
-   "away": "Newcastle City",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/c73fd068",
-   "venue": "Learmonth Park (HAMILTON SOUTH)",
-   "court": "Learmonth Park",
-   "address": "Gordon Avenue, HAMILTON SOUTH, NSW, 2303",
-   "lat": "-32.9313987995401",
-   "lng": "151.749086380004"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Wallsend",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/1aa85c3a",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Hamilton-Wickham",
-   "away": "Newcastle City",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/ebdcb2cd",
-   "venue": "Passmore Oval",
-   "court": "Passmore Oval",
-   "address": "Albert Street, WICKHAM, NSW, 2293",
-   "lat": "-32.919513",
-   "lng": "151.754951"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Waratah-Mayfield",
-   "away": "Newcastle City",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/75aeab1d",
-   "venue": "Waratah Oval",
-   "court": "Waratah Oval",
-   "address": "Opp.Waratah Railway Station, WARATAH, NSW, 2298",
-   "lat": "-32.9047761661596",
-   "lng": "151.731362342834"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 6",
-   "dates": [
-    {
-     "date": "2026-11-14",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2026-11-21",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Merewether",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/b98392f6",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 7",
-   "dates": [
-    {
-     "date": "2026-11-28",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2026-12-05",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Charlestown",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/dde3acd3",
-   "venue": "Kahibah Oval",
-   "court": "Kalibah Oval",
-   "address": "Corner Bula Street and James Street, CHARLESTOWN, NSW, 2290",
-   "lat": "-32.970268",
-   "lng": "151.705796"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 8",
-   "dates": [
-    {
-     "date": "2026-12-12",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2026-12-19",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Stockton & Northern Districts",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/036dd16d",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 9",
-   "dates": [
-    {
-     "date": "2027-01-09",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2027-01-10",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Wests",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/9506707a",
-   "venue": "Wallsend Park",
-   "court": "Oval 2",
-   "address": "Brooks Street, WALLSEND, NSW, 2287",
-   "lat": "-32.9063254697915",
-   "lng": "151.667289733886"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 10",
-   "dates": [
-    {
-     "date": "2027-01-16",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2027-01-23",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "University",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/fb30f74c",
-   "venue": "Ray Watt Oval",
-   "court": "Ray Watt Oval",
-   "address": "Wirra Crescent, CALLAGHAN, NSW, 2308",
-   "lat": "-32.893389754435",
-   "lng": "151.712265014648"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 11",
-   "dates": [
-    {
-     "date": "2027-01-30",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2027-02-06",
-     "time": "12:00:00"
-    }
-   ],
-   "home": "Cardiff Boolaroo",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/d5695457",
-   "venue": "Pasterfield Sports Complex",
-   "court": "Pasterfield Sports Complex",
-   "address": "Horizon Ave, CAMERON PARK, NSW, 2285",
-   "lat": "-32.9148071",
-   "lng": "151.6062048"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 12",
-   "dates": [
-    {
-     "date": "2027-02-13",
-     "time": "12:00:00"
-    },
-    {
-     "date": "2027-02-20",
-     "time": "12:00:00"
+     "time": "10:00:00"
     }
    ],
    "home": "Toronto Workers",
    "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/93d9f98a",
+   "format": "One Day",
+   "status": "Final",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/80e02e01",
    "venue": "Ron Hill Oval",
    "court": "Ron Hill Oval",
    "address": "Staright Drive, TORONTO, NSW, 2283",
@@ -370,31 +78,323 @@
   },
   {
    "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
-   "grade": "2nd Grade",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "10:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Belmont",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/a1ba1a1b",
+   "venue": "Cahill Oval",
+   "court": "Cahill Oval",
+   "address": "Maude Street, BELMONT, NSW, 2280",
+   "lat": "-33.0333660028307",
+   "lng": "151.664779186248"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "10:00:00"
+    }
+   ],
+   "home": "Wallsend",
+   "away": "Newcastle City",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/f0098c90",
+   "venue": "Wallsend Park",
+   "court": "Oval 1 - George Farley Oval",
+   "address": "Brooks Street, WALLSEND, NSW, 2287",
+   "lat": "-32.9050644107483",
+   "lng": "151.667954921722"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "10:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Hamilton-Wickham",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/8989913d",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "10:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Waratah-Mayfield",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/c3aee7e4",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 6",
+   "dates": [
+    {
+     "date": "2026-11-21",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Merewether",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/66627281",
+   "venue": "Townson Oval",
+   "court": "Townson Oval",
+   "address": "Mitchell Street, MEREWETHER, NSW, 2291",
+   "lat": "-32.942406",
+   "lng": "151.755017"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 7",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2026-12-05",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Charlestown",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/909ec23c",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 8",
+   "dates": [
+    {
+     "date": "2026-12-12",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2026-12-19",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Stockton & Northern Districts",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/c293d584",
+   "venue": "Lynn Oval",
+   "court": "Lynn Oval",
+   "address": "Mitchell St, STOCKTON, NSW, 2295",
+   "lat": "-32.911977",
+   "lng": "151.787209"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 9",
+   "dates": [
+    {
+     "date": "2027-01-09",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2027-01-10",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Wests",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/5dc32fc7",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 10",
+   "dates": [
+    {
+     "date": "2027-01-16",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2027-01-23",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "University",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/79f060fa",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 11",
+   "dates": [
+    {
+     "date": "2027-01-30",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2027-02-06",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Cardiff Boolaroo",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/e343533f",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 12",
+   "dates": [
+    {
+     "date": "2027-02-13",
+     "time": "11:00:00"
+    },
+    {
+     "date": "2027-02-20",
+     "time": "11:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Toronto Workers",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/147e0a41",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
+   "grade": "1st Grade (Rippit Premiership)",
    "comp": "NDCA Senior Cricket",
    "assoc": "Newcastle District Cricket Association Inc.",
    "round": "Round 13",
    "dates": [
     {
      "date": "2027-02-27",
-     "time": "12:00:00"
+     "time": "11:00:00"
     },
     {
      "date": "2027-03-06",
-     "time": "12:00:00"
+     "time": "11:00:00"
     }
    ],
-   "home": "Newcastle City",
-   "away": "Belmont",
+   "home": "Belmont",
+   "away": "Newcastle City",
    "format": "Two Day+",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/a3cfb147",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/75b1c3f3",
+   "venue": "Cahill Oval",
+   "court": "Cahill Oval",
+   "address": "Maude Street, BELMONT, NSW, 2280",
+   "lat": "-33.0333660028307",
+   "lng": "151.664779186248"
   },
   {
    "team": "Newcastle City",
@@ -758,22 +758,314 @@
   },
   {
    "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
    "comp": "NDCA Senior Cricket",
    "assoc": "Newcastle District Cricket Association Inc.",
    "round": "Round 1",
    "dates": [
     {
      "date": "2026-10-10",
-     "time": "10:00:00"
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Toronto Workers",
+   "format": "One Day",
+   "status": "Final",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/e7dcb910",
+   "venue": "Learmonth Park (HAMILTON SOUTH)",
+   "court": "Learmonth Park",
+   "address": "Gordon Avenue, HAMILTON SOUTH, NSW, 2303",
+   "lat": "-32.9313987995401",
+   "lng": "151.749086380004"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Belmont",
+   "away": "Newcastle City",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/c73fd068",
+   "venue": "Learmonth Park (HAMILTON SOUTH)",
+   "court": "Learmonth Park",
+   "address": "Gordon Avenue, HAMILTON SOUTH, NSW, 2303",
+   "lat": "-32.9313987995401",
+   "lng": "151.749086380004"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Wallsend",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/1aa85c3a",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Hamilton-Wickham",
+   "away": "Newcastle City",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/ebdcb2cd",
+   "venue": "Passmore Oval",
+   "court": "Passmore Oval",
+   "address": "Albert Street, WICKHAM, NSW, 2293",
+   "lat": "-32.919513",
+   "lng": "151.754951"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Waratah-Mayfield",
+   "away": "Newcastle City",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/75aeab1d",
+   "venue": "Waratah Oval",
+   "court": "Waratah Oval",
+   "address": "Opp.Waratah Railway Station, WARATAH, NSW, 2298",
+   "lat": "-32.9047761661596",
+   "lng": "151.731362342834"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 6",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2026-11-21",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Merewether",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/b98392f6",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 7",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2026-12-05",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Charlestown",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/dde3acd3",
+   "venue": "Kahibah Oval",
+   "court": "Kalibah Oval",
+   "address": "Corner Bula Street and James Street, CHARLESTOWN, NSW, 2290",
+   "lat": "-32.970268",
+   "lng": "151.705796"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 8",
+   "dates": [
+    {
+     "date": "2026-12-12",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2026-12-19",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Stockton & Northern Districts",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/036dd16d",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 9",
+   "dates": [
+    {
+     "date": "2027-01-09",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2027-01-10",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Wests",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/9506707a",
+   "venue": "Wallsend Park",
+   "court": "Oval 2",
+   "address": "Brooks Street, WALLSEND, NSW, 2287",
+   "lat": "-32.9063254697915",
+   "lng": "151.667289733886"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 10",
+   "dates": [
+    {
+     "date": "2027-01-16",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2027-01-23",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "University",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/fb30f74c",
+   "venue": "Ray Watt Oval",
+   "court": "Ray Watt Oval",
+   "address": "Wirra Crescent, CALLAGHAN, NSW, 2308",
+   "lat": "-32.893389754435",
+   "lng": "151.712265014648"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 11",
+   "dates": [
+    {
+     "date": "2027-01-30",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2027-02-06",
+     "time": "12:00:00"
+    }
+   ],
+   "home": "Cardiff Boolaroo",
+   "away": "Newcastle City",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/d5695457",
+   "venue": "Pasterfield Sports Complex",
+   "court": "Pasterfield Sports Complex",
+   "address": "Horizon Ave, CAMERON PARK, NSW, 2285",
+   "lat": "-32.9148071",
+   "lng": "151.6062048"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 12",
+   "dates": [
+    {
+     "date": "2027-02-13",
+     "time": "12:00:00"
+    },
+    {
+     "date": "2027-02-20",
+     "time": "12:00:00"
     }
    ],
    "home": "Toronto Workers",
    "away": "Newcastle City",
-   "format": "One Day",
-   "status": "Final",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/80e02e01",
+   "format": "Two Day+",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/93d9f98a",
    "venue": "Ron Hill Oval",
    "court": "Ron Hill Oval",
    "address": "Staright Drive, TORONTO, NSW, 2283",
@@ -782,443 +1074,31 @@
   },
   {
    "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "10:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Belmont",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/a1ba1a1b",
-   "venue": "Cahill Oval",
-   "court": "Cahill Oval",
-   "address": "Maude Street, BELMONT, NSW, 2280",
-   "lat": "-33.0333660028307",
-   "lng": "151.664779186248"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "10:00:00"
-    }
-   ],
-   "home": "Wallsend",
-   "away": "Newcastle City",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/f0098c90",
-   "venue": "Wallsend Park",
-   "court": "Oval 1 - George Farley Oval",
-   "address": "Brooks Street, WALLSEND, NSW, 2287",
-   "lat": "-32.9050644107483",
-   "lng": "151.667954921722"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "10:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Hamilton-Wickham",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/8989913d",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "10:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Waratah-Mayfield",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/c3aee7e4",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 6",
-   "dates": [
-    {
-     "date": "2026-11-21",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2026-11-22",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Merewether",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/66627281",
-   "venue": "Townson Oval",
-   "court": "Townson Oval",
-   "address": "Mitchell Street, MEREWETHER, NSW, 2291",
-   "lat": "-32.942406",
-   "lng": "151.755017"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 7",
-   "dates": [
-    {
-     "date": "2026-11-28",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2026-12-05",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Charlestown",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/909ec23c",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 8",
-   "dates": [
-    {
-     "date": "2026-12-12",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2026-12-19",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Stockton & Northern Districts",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/c293d584",
-   "venue": "Lynn Oval",
-   "court": "Lynn Oval",
-   "address": "Mitchell St, STOCKTON, NSW, 2295",
-   "lat": "-32.911977",
-   "lng": "151.787209"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 9",
-   "dates": [
-    {
-     "date": "2027-01-09",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2027-01-10",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Wests",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/5dc32fc7",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 10",
-   "dates": [
-    {
-     "date": "2027-01-16",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2027-01-23",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "University",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/79f060fa",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 11",
-   "dates": [
-    {
-     "date": "2027-01-30",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2027-02-06",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Cardiff Boolaroo",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/e343533f",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 12",
-   "dates": [
-    {
-     "date": "2027-02-13",
-     "time": "11:00:00"
-    },
-    {
-     "date": "2027-02-20",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Newcastle City",
-   "away": "Toronto Workers",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/147e0a41",
-   "venue": "National Park",
-   "court": "Newcastle Number 1 Sportsground",
-   "address": "Smith Street, COOKS HILL, NSW, 2300",
-   "lat": "-32.93153008831294",
-   "lng": "151.76329785741765"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/7d1e1f89",
-   "grade": "1st Grade (Rippit Premiership)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/96e5e7df",
+   "grade": "2nd Grade",
    "comp": "NDCA Senior Cricket",
    "assoc": "Newcastle District Cricket Association Inc.",
    "round": "Round 13",
    "dates": [
     {
      "date": "2027-02-27",
-     "time": "11:00:00"
+     "time": "12:00:00"
     },
     {
      "date": "2027-03-06",
-     "time": "11:00:00"
-    }
-   ],
-   "home": "Belmont",
-   "away": "Newcastle City",
-   "format": "Two Day+",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/1st-grade-rippit-premiership/game-centre/75b1c3f3",
-   "venue": "Cahill Oval",
-   "court": "Cahill Oval",
-   "address": "Maude Street, BELMONT, NSW, 2280",
-   "lat": "-33.0333660028307",
-   "lng": "151.664779186248"
-  },
-  {
-   "team": "Newcastle City",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/97de63a5",
-   "grade": "Gilmour Cup Masters",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-14",
-     "time": "17:00:00"
+     "time": "12:00:00"
     }
    ],
    "home": "Newcastle City",
-   "away": "Redhead",
-   "format": "T20",
-   "status": "Pending",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/gilmour-cup-masters/game-centre/cc5742eb",
-   "venue": "Islington Oval",
-   "court": "Islington Oval",
-   "address": "63 power Street, ISLINGTON, NSW, 2296",
-   "lat": "-32.913362",
-   "lng": "151.748636"
-  },
-  {
-   "team": "Newcastle City Dev (Sky)",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-sky/b07945bf",
-   "grade": "Rippit Development League",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "13:30:00"
-    }
-   ],
-   "home": "Charlestown (Black)",
-   "away": "Newcastle City Dev (Sky)",
-   "format": "One Day",
+   "away": "Belmont",
+   "format": "Two Day+",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/8a05316d",
-   "venue": "Thomas Armstrong Oval",
-   "court": "Thomas Armstrong Oval",
-   "address": "Maitland Road, WICKHAM, NSW, 2293",
-   "lat": "-32.920511",
-   "lng": "151.753700"
-  },
-  {
-   "team": "Newcastle City Dev (Sky)",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-sky/b07945bf",
-   "grade": "Rippit Development League",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "13:30:00"
-    }
-   ],
-   "home": "Toronto Workers",
-   "away": "Newcastle City Dev (Sky)",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/ae5b9ada",
-   "venue": "Finnan Oval",
-   "court": "Finnan Oval 1",
-   "address": "Fennell Crescent, BLACKALLS PARK, NSW, 2283",
-   "lat": "-33.004150",
-   "lng": "151.582596"
-  },
-  {
-   "team": "Newcastle City Dev (Navy)",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-navy/98955aee",
-   "grade": "Rippit Development League",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "13:30:00"
-    }
-   ],
-   "home": "Newcastle City Dev (Navy)",
-   "away": "Toronto Workers",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/3094b2c9",
-   "venue": "Novocastrian Park",
-   "court": "Novocastrian Park",
-   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
-   "lat": "-32.932513",
-   "lng": "151.709313"
-  },
-  {
-   "team": "Newcastle City Dev (Navy)",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-navy/98955aee",
-   "grade": "Rippit Development League",
-   "comp": "NDCA Senior Cricket",
-   "assoc": "Newcastle District Cricket Association Inc.",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "13:30:00"
-    }
-   ],
-   "home": "Newcastle City Dev (Navy)",
-   "away": "Wests (Green)",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/5d155437",
-   "venue": "Novocastrian Park",
-   "court": "Novocastrian Park",
-   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
-   "lat": "-32.932513",
-   "lng": "151.709313"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/2nd-grade/game-centre/a3cfb147",
+   "venue": "National Park",
+   "court": "Newcastle Number 1 Sportsground",
+   "address": "Smith Street, COOKS HILL, NSW, 2300",
+   "lat": "-32.93153008831294",
+   "lng": "151.76329785741765"
   },
   {
    "team": "Newcastle City",
@@ -1581,6 +1461,126 @@
    "lng": "151.668276786804"
   },
   {
+   "team": "Newcastle City Dev (Sky)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-sky/b07945bf",
+   "grade": "Rippit Development League",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "13:30:00"
+    }
+   ],
+   "home": "Charlestown (Black)",
+   "away": "Newcastle City Dev (Sky)",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/8a05316d",
+   "venue": "Thomas Armstrong Oval",
+   "court": "Thomas Armstrong Oval",
+   "address": "Maitland Road, WICKHAM, NSW, 2293",
+   "lat": "-32.920511",
+   "lng": "151.753700"
+  },
+  {
+   "team": "Newcastle City Dev (Sky)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-sky/b07945bf",
+   "grade": "Rippit Development League",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "13:30:00"
+    }
+   ],
+   "home": "Toronto Workers",
+   "away": "Newcastle City Dev (Sky)",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/ae5b9ada",
+   "venue": "Finnan Oval",
+   "court": "Finnan Oval 1",
+   "address": "Fennell Crescent, BLACKALLS PARK, NSW, 2283",
+   "lat": "-33.004150",
+   "lng": "151.582596"
+  },
+  {
+   "team": "Newcastle City Dev (Navy)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-navy/98955aee",
+   "grade": "Rippit Development League",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "13:30:00"
+    }
+   ],
+   "home": "Newcastle City Dev (Navy)",
+   "away": "Toronto Workers",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/3094b2c9",
+   "venue": "Novocastrian Park",
+   "court": "Novocastrian Park",
+   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
+   "lat": "-32.932513",
+   "lng": "151.709313"
+  },
+  {
+   "team": "Newcastle City Dev (Navy)",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city-dev-navy/98955aee",
+   "grade": "Rippit Development League",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "13:30:00"
+    }
+   ],
+   "home": "Newcastle City Dev (Navy)",
+   "away": "Wests (Green)",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/rippit-development-league/game-centre/5d155437",
+   "venue": "Novocastrian Park",
+   "court": "Novocastrian Park",
+   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
+   "lat": "-32.932513",
+   "lng": "151.709313"
+  },
+  {
+   "team": "Newcastle City",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/ndca-senior-cricket-summer-202627/teams/newcastle-city/97de63a5",
+   "grade": "Gilmour Cup Masters",
+   "comp": "NDCA Senior Cricket",
+   "assoc": "Newcastle District Cricket Association Inc.",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-14",
+     "time": "17:00:00"
+    }
+   ],
+   "home": "Newcastle City",
+   "away": "Redhead",
+   "format": "T20",
+   "status": "Pending",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-district-cricket-association-inc/ndca-senior-cricket-summer-202627/gilmour-cup-masters/game-centre/cc5742eb",
+   "venue": "Islington Oval",
+   "court": "Islington Oval",
+   "address": "63 power Street, ISLINGTON, NSW, 2296",
+   "lat": "-32.913362",
+   "lng": "151.748636"
+  },
+  {
    "team": "Newcastle City U10 Mixed Sabres Reds",
    "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u10-mixed-sabres-reds/3c292bbc",
    "grade": "U10 Clarke",
@@ -1917,9 +1917,9 @@
    "lng": "151.745717525482"
   },
   {
-   "team": "Newcastle City U11 Mixed Yellow",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
-   "grade": "U11 Division 3 North",
+   "team": "Newcastle City Stage 1 Girls Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
+   "grade": "U11 Girls",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 1",
@@ -1929,107 +1929,11 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Tahs U11 Mixed Red",
-   "away": "Newcastle City U11 Mixed Yellow",
+   "home": "Newcastle City Stage 1 Girls Blue",
+   "away": "HamWicks S1 Girls",
    "format": "T20",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/2e2846a1",
-   "venue": "Cook Park",
-   "court": "Cook Park",
-   "address": "MacArthur Street, SHORTLAND, NSW, 2307",
-   "lat": "-32.8892456020783",
-   "lng": "151.685700416564"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Yellow",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
-   "grade": "U11 Division 3 North",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:05:00"
-    }
-   ],
-   "home": "Merewether U11 Blue",
-   "away": "Newcastle City U11 Mixed Yellow",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/3c6163db",
-   "venue": "Wanderers Park",
-   "court": "Wanderers Park",
-   "address": "Denney Steet, BROADMEADOW, NSW, 2292",
-   "lat": "-32.920590",
-   "lng": "151.732098"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Yellow",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
-   "grade": "U11 Division 3 North",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "HamWicks Colts  U11 Mixed",
-   "away": "Newcastle City U11 Mixed Yellow",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/4df39ced",
-   "venue": "Smith Park (HAMILTON NORTH)",
-   "court": "Oval 1",
-   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.9152244329867",
-   "lng": "151.735053062438"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Yellow",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
-   "grade": "U11 Division 3 North",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "08:00:00"
-    }
-   ],
-   "home": "Port Stephens Pythons U11 Mixed",
-   "away": "Newcastle City U11 Mixed Yellow",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/7ad51a36",
-   "venue": "Lakeside",
-   "court": "Lakeside 4",
-   "address": "Leisure Way, RAYMOND TERRACE, NSW, 2324",
-   "lat": "-32.7637483212708",
-   "lng": "151.786594390869"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Yellow",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
-   "grade": "U11 Division 3 North",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-14",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U11 Mixed Yellow",
-   "away": "Newcastle City U11 Mixed Green",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/f07f5c4e",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/7fd0d86c",
    "venue": "Richardson Park (HAMILTON NORTH)",
    "court": "Richardson Park",
    "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
@@ -2037,33 +1941,9 @@
    "lng": "151.737898"
   },
   {
-   "team": "Newcastle City U11 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
-   "grade": "U11 Division 2",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U11 Mixed Red",
-   "away": "VECC U11 Vipers",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/04ba6c57",
-   "venue": "Myers Park",
-   "court": "Synthetic",
-   "address": "Melville Road, BROADMEADOW, NSW, 2292",
-   "lat": "-32.9312187003785",
-   "lng": "151.732907295227"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
-   "grade": "U11 Division 2",
+   "team": "Newcastle City Stage 1 Girls Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
+   "grade": "U11 Girls",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 2",
@@ -2073,21 +1953,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U11 Mixed Red",
-   "away": "Toronto Kookaburras",
+   "home": "WSJCC S1 Girls Red",
+   "away": "Newcastle City Stage 1 Girls Blue",
    "format": "T20",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/d6d23044",
-   "venue": "Myers Park",
-   "court": "Synthetic",
-   "address": "Melville Road, BROADMEADOW, NSW, 2292",
-   "lat": "-32.9312187003785",
-   "lng": "151.732907295227"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/05c066d5",
+   "venue": "Myamblah Cresent",
+   "court": "Myamblah Cresent",
+   "address": "Myamblah Crexcent, MEREWETHER, NSW, 2291",
+   "lat": "-32.94428834",
+   "lng": "151.7433311"
   },
   {
-   "team": "Newcastle City U11 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
-   "grade": "U11 Division 2",
+   "team": "Newcastle City Stage 1 Girls Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
+   "grade": "U11 Girls",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 3",
@@ -2097,21 +1977,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Charlestown Thunder",
-   "away": "Newcastle City U11 Mixed Red",
+   "home": "Newcastle City Stage 1 Girls Blue",
+   "away": "VECC Stage 1 Vixens",
    "format": "T20",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/98f32529",
-   "venue": "Ulinga Sporting Complex",
-   "court": "Ulinga Oval 2 (North)",
-   "address": "LODWICK LN, Cardiff South, NSW, 2285",
-   "lat": "-32.955018721345674",
-   "lng": "151.6666981149404"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/f99144cf",
+   "venue": "Richardson Park (HAMILTON NORTH)",
+   "court": "Richardson Park",
+   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.917147",
+   "lng": "151.737898"
   },
   {
-   "team": "Newcastle City U11 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
-   "grade": "U11 Division 2",
+   "team": "Newcastle City Stage 1 Girls Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
+   "grade": "U11 Girls",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 4",
@@ -2121,21 +2001,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U11 Mixed Red",
-   "away": "Stockton U11",
+   "home": "Newcastle City Stage 1 Girls Blue",
+   "away": "Newcastle City Stage 1 Girls Red",
    "format": "T20",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/96a5dde4",
-   "venue": "Ballast Ovals",
-   "court": "Oval 2",
-   "address": "Corner Fullerton Street and Clyde Street, STOCKTON, NSW, 2295",
-   "lat": "-32.9136392580616",
-   "lng": "151.778955459594"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/e2ffb453",
+   "venue": "Richardson Park (HAMILTON NORTH)",
+   "court": "Richardson Park",
+   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.917147",
+   "lng": "151.737898"
   },
   {
-   "team": "Newcastle City U11 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
-   "grade": "U11 Division 2",
+   "team": "Newcastle City Stage 1 Girls Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
+   "grade": "U11 Girls",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 5",
@@ -2145,136 +2025,16 @@
      "time": "08:30:00"
     }
    ],
-   "home": "WSJCC U11 Green",
-   "away": "Newcastle City U11 Mixed Red",
+   "home": "Tahs U11 Girls Stage 1 White",
+   "away": "Newcastle City Stage 1 Girls Blue",
    "format": "T20",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/795b3d34",
-   "venue": "Alder Park",
-   "court": "Alder Park",
-   "address": "Bridges Road, NEW LAMBTON, NSW, 2305",
-   "lat": "-32.931623",
-   "lng": "151.715938"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
-   "grade": "U11 Division 1",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "VECC U11 Voltage",
-   "away": "Newcastle City U11 Mixed Blue",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/718f99d2",
-   "venue": "Marks Oval",
-   "court": "Marks Oval",
-   "address": "Floraville Road, FLORAVILLE, NSW, 2280",
-   "lat": "-33.01885499",
-   "lng": "151.6657569"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
-   "grade": "U11 Division 1",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "WSJCC U11 Red",
-   "away": "Newcastle City U11 Mixed Blue",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/2130b22e",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/92f1b5ac",
    "venue": "Johnson Park (LAMBTON)",
    "court": "Johnson Park",
    "address": "Conrer Wyong Road and Orlando Road, LAMBTON, NSW, 2299",
    "lat": "-32.9172628",
    "lng": "151.7220727"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
-   "grade": "U11 Division 1",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U11 Mixed Blue",
-   "away": "Charlestown Hurricanes",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/42532fa5",
-   "venue": "Myers Park",
-   "court": "Synthetic",
-   "address": "Melville Road, BROADMEADOW, NSW, 2292",
-   "lat": "-32.9312187003785",
-   "lng": "151.732907295227"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
-   "grade": "U11 Division 1",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "08:00:00"
-    }
-   ],
-   "home": "Newcastle City U11 Mixed Blue",
-   "away": "Merewether U11 Gold",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/fbdd94ce",
-   "venue": "Myers Park",
-   "court": "Synthetic",
-   "address": "Melville Road, BROADMEADOW, NSW, 2292",
-   "lat": "-32.9312187003785",
-   "lng": "151.732907295227"
-  },
-  {
-   "team": "Newcastle City U11 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
-   "grade": "U11 Division 1",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-14",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Tahs U11 Mixed Navy",
-   "away": "Newcastle City U11 Mixed Blue",
-   "format": "T20",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/99e83194",
-   "venue": "Heaton Park",
-   "court": "Heaton Park - Oval #2",
-   "address": "Bluegum Road, JESMOND, NSW, 2299",
-   "lat": "-32.9009748528719",
-   "lng": "151.690549850463"
   },
   {
    "team": "Newcastle City Stage 1 Girls Red",
@@ -2397,6 +2157,366 @@
    "lng": "151.694755554199"
   },
   {
+   "team": "Newcastle City U11 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
+   "grade": "U11 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "VECC U11 Voltage",
+   "away": "Newcastle City U11 Mixed Blue",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/718f99d2",
+   "venue": "Marks Oval",
+   "court": "Marks Oval",
+   "address": "Floraville Road, FLORAVILLE, NSW, 2280",
+   "lat": "-33.01885499",
+   "lng": "151.6657569"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
+   "grade": "U11 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "WSJCC U11 Red",
+   "away": "Newcastle City U11 Mixed Blue",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/2130b22e",
+   "venue": "Johnson Park (LAMBTON)",
+   "court": "Johnson Park",
+   "address": "Conrer Wyong Road and Orlando Road, LAMBTON, NSW, 2299",
+   "lat": "-32.9172628",
+   "lng": "151.7220727"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
+   "grade": "U11 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Blue",
+   "away": "Charlestown Hurricanes",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/42532fa5",
+   "venue": "Myers Park",
+   "court": "Synthetic",
+   "address": "Melville Road, BROADMEADOW, NSW, 2292",
+   "lat": "-32.9312187003785",
+   "lng": "151.732907295227"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
+   "grade": "U11 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "08:00:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Blue",
+   "away": "Merewether U11 Gold",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/fbdd94ce",
+   "venue": "Myers Park",
+   "court": "Synthetic",
+   "address": "Melville Road, BROADMEADOW, NSW, 2292",
+   "lat": "-32.9312187003785",
+   "lng": "151.732907295227"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-blue/f49f8ac6",
+   "grade": "U11 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Tahs U11 Mixed Navy",
+   "away": "Newcastle City U11 Mixed Blue",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-1/game-centre/99e83194",
+   "venue": "Heaton Park",
+   "court": "Heaton Park - Oval #2",
+   "address": "Bluegum Road, JESMOND, NSW, 2299",
+   "lat": "-32.9009748528719",
+   "lng": "151.690549850463"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
+   "grade": "U11 Division 2",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Red",
+   "away": "VECC U11 Vipers",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/04ba6c57",
+   "venue": "Myers Park",
+   "court": "Synthetic",
+   "address": "Melville Road, BROADMEADOW, NSW, 2292",
+   "lat": "-32.9312187003785",
+   "lng": "151.732907295227"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
+   "grade": "U11 Division 2",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Red",
+   "away": "Toronto Kookaburras",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/d6d23044",
+   "venue": "Myers Park",
+   "court": "Synthetic",
+   "address": "Melville Road, BROADMEADOW, NSW, 2292",
+   "lat": "-32.9312187003785",
+   "lng": "151.732907295227"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
+   "grade": "U11 Division 2",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Charlestown Thunder",
+   "away": "Newcastle City U11 Mixed Red",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/98f32529",
+   "venue": "Ulinga Sporting Complex",
+   "court": "Ulinga Oval 2 (North)",
+   "address": "LODWICK LN, Cardiff South, NSW, 2285",
+   "lat": "-32.955018721345674",
+   "lng": "151.6666981149404"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
+   "grade": "U11 Division 2",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Red",
+   "away": "Stockton U11",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/96a5dde4",
+   "venue": "Ballast Ovals",
+   "court": "Oval 2",
+   "address": "Corner Fullerton Street and Clyde Street, STOCKTON, NSW, 2295",
+   "lat": "-32.9136392580616",
+   "lng": "151.778955459594"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-red/ec26db16",
+   "grade": "U11 Division 2",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "WSJCC U11 Green",
+   "away": "Newcastle City U11 Mixed Red",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-2/game-centre/795b3d34",
+   "venue": "Alder Park",
+   "court": "Alder Park",
+   "address": "Bridges Road, NEW LAMBTON, NSW, 2305",
+   "lat": "-32.931623",
+   "lng": "151.715938"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Yellow",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
+   "grade": "U11 Division 3 North",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Tahs U11 Mixed Red",
+   "away": "Newcastle City U11 Mixed Yellow",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/2e2846a1",
+   "venue": "Cook Park",
+   "court": "Cook Park",
+   "address": "MacArthur Street, SHORTLAND, NSW, 2307",
+   "lat": "-32.8892456020783",
+   "lng": "151.685700416564"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Yellow",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
+   "grade": "U11 Division 3 North",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:05:00"
+    }
+   ],
+   "home": "Merewether U11 Blue",
+   "away": "Newcastle City U11 Mixed Yellow",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/3c6163db",
+   "venue": "Wanderers Park",
+   "court": "Wanderers Park",
+   "address": "Denney Steet, BROADMEADOW, NSW, 2292",
+   "lat": "-32.920590",
+   "lng": "151.732098"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Yellow",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
+   "grade": "U11 Division 3 North",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "HamWicks Colts  U11 Mixed",
+   "away": "Newcastle City U11 Mixed Yellow",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/4df39ced",
+   "venue": "Smith Park (HAMILTON NORTH)",
+   "court": "Oval 1",
+   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.9152244329867",
+   "lng": "151.735053062438"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Yellow",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
+   "grade": "U11 Division 3 North",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "08:00:00"
+    }
+   ],
+   "home": "Port Stephens Pythons U11 Mixed",
+   "away": "Newcastle City U11 Mixed Yellow",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/7ad51a36",
+   "venue": "Lakeside",
+   "court": "Lakeside 4",
+   "address": "Leisure Way, RAYMOND TERRACE, NSW, 2324",
+   "lat": "-32.7637483212708",
+   "lng": "151.786594390869"
+  },
+  {
+   "team": "Newcastle City U11 Mixed Yellow",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-yellow/3113cb62",
+   "grade": "U11 Division 3 North",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U11 Mixed Yellow",
+   "away": "Newcastle City U11 Mixed Green",
+   "format": "T20",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-division-3-north/game-centre/f07f5c4e",
+   "venue": "Richardson Park (HAMILTON NORTH)",
+   "court": "Richardson Park",
+   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.917147",
+   "lng": "151.737898"
+  },
+  {
    "team": "Newcastle City U11 Mixed Green",
    "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u11-mixed-green/d43a9fd7",
    "grade": "U11 Division 3 North",
@@ -2517,9 +2637,9 @@
    "lng": "151.737898"
   },
   {
-   "team": "Newcastle City Stage 1 Girls Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
-   "grade": "U11 Girls",
+   "team": "Newcastle City U14 Mixed Seagulls",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
+   "grade": "U14 Division 2",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 1",
@@ -2529,21 +2649,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City Stage 1 Girls Blue",
-   "away": "HamWicks S1 Girls",
-   "format": "T20",
+   "home": "Merewether U14 Blue",
+   "away": "Newcastle City U14 Mixed Seagulls",
+   "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/7fd0d86c",
-   "venue": "Richardson Park (HAMILTON NORTH)",
-   "court": "Richardson Park",
-   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.917147",
-   "lng": "151.737898"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/e192513b",
+   "venue": "Empire Park",
+   "court": "Empire Park",
+   "address": "Corner Memorial Drive and Bar Beach Avenue, BAR BEACH, NSW, 2300",
+   "lat": "-32.9412316571705",
+   "lng": "151.765737533569"
   },
   {
-   "team": "Newcastle City Stage 1 Girls Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
-   "grade": "U11 Girls",
+   "team": "Newcastle City U14 Mixed Seagulls",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
+   "grade": "U14 Division 2",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 2",
@@ -2553,21 +2673,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "WSJCC S1 Girls Red",
-   "away": "Newcastle City Stage 1 Girls Blue",
-   "format": "T20",
+   "home": "Newcastle City U14 Mixed Seagulls",
+   "away": "Charlestown Rangers",
+   "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/05c066d5",
-   "venue": "Myamblah Cresent",
-   "court": "Myamblah Cresent",
-   "address": "Myamblah Crexcent, MEREWETHER, NSW, 2291",
-   "lat": "-32.94428834",
-   "lng": "151.7433311"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/3c388f21",
+   "venue": "Corroba Oval",
+   "court": "Corroba Oval",
+   "address": "CORROBA PARK, 2 MEREDITH ST, STOCKTON, NSW, 2295",
+   "lat": "-32.896623",
+   "lng": "151.789482"
   },
   {
-   "team": "Newcastle City Stage 1 Girls Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
-   "grade": "U11 Girls",
+   "team": "Newcastle City U14 Mixed Seagulls",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
+   "grade": "U14 Division 2",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 3",
@@ -2577,21 +2697,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City Stage 1 Girls Blue",
-   "away": "VECC Stage 1 Vixens",
-   "format": "T20",
+   "home": "HamWicks Colts  U14 Mixed",
+   "away": "Newcastle City U14 Mixed Seagulls",
+   "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/f99144cf",
-   "venue": "Richardson Park (HAMILTON NORTH)",
-   "court": "Richardson Park",
-   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.917147",
-   "lng": "151.737898"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/d9ede0a9",
+   "venue": "Smith Park (HAMILTON NORTH)",
+   "court": "Oval 3",
+   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.9160530358541",
+   "lng": "151.733765602111"
   },
   {
-   "team": "Newcastle City Stage 1 Girls Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
-   "grade": "U11 Girls",
+   "team": "Newcastle City U14 Mixed Seagulls",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
+   "grade": "U14 Division 2",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 4",
@@ -2601,21 +2721,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City Stage 1 Girls Blue",
-   "away": "Newcastle City Stage 1 Girls Red",
-   "format": "T20",
+   "home": "WSJCC U14 Yellow",
+   "away": "Newcastle City U14 Mixed Seagulls",
+   "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/e2ffb453",
-   "venue": "Richardson Park (HAMILTON NORTH)",
-   "court": "Richardson Park",
-   "address": "16 Chatham Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.917147",
-   "lng": "151.737898"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/ca1a3f7f",
+   "venue": "Novocastrian Park",
+   "court": "Novocastrian Park",
+   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
+   "lat": "-32.932513",
+   "lng": "151.709313"
   },
   {
-   "team": "Newcastle City Stage 1 Girls Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-stage-1-girls-blue/2a868218",
-   "grade": "U11 Girls",
+   "team": "Newcastle City U14 Mixed Seagulls",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
+   "grade": "U14 Division 2",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 5",
@@ -2625,16 +2745,16 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Tahs U11 Girls Stage 1 White",
-   "away": "Newcastle City Stage 1 Girls Blue",
-   "format": "T20",
+   "home": "Newcastle City U14 Mixed Seagulls",
+   "away": "WSJCC U14 Green",
+   "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u11-girls/game-centre/92f1b5ac",
-   "venue": "Johnson Park (LAMBTON)",
-   "court": "Johnson Park",
-   "address": "Conrer Wyong Road and Orlando Road, LAMBTON, NSW, 2299",
-   "lat": "-32.9172628",
-   "lng": "151.7220727"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/ef960fec",
+   "venue": "Kurraka Oval",
+   "court": "Kurraka Oval",
+   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
+   "lat": "-32.8704155",
+   "lng": "151.6419841"
   },
   {
    "team": "Newcastle City U13 Girls Stage 2 girls",
@@ -2757,9 +2877,9 @@
    "lng": "151.6975722"
   },
   {
-   "team": "Newcastle City U14 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
-   "grade": "U14 Division 1",
+   "team": "Newcastle City U14 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
+   "grade": "U14 Division 3",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 1",
@@ -2769,21 +2889,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U14 Mixed Blue",
-   "away": "LMJCC U14 Mixed Thunder",
+   "home": "Tahs U14 Mixed Navy",
+   "away": "Newcastle City U14 Mixed Red",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/1961cc5c",
-   "venue": "Kurraka Oval",
-   "court": "Kurraka Oval",
-   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
-   "lat": "-32.8704155",
-   "lng": "151.6419841"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/080785a8",
+   "venue": "Waratah Park",
+   "court": "Oval 4 - Synthetic",
+   "address": "Young Street, WARATAH, NSW, 2298",
+   "lat": "-32.9049202885712",
+   "lng": "151.732800006866"
   },
   {
-   "team": "Newcastle City U14 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
-   "grade": "U14 Division 1",
+   "team": "Newcastle City U14 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
+   "grade": "U14 Division 3",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 2",
@@ -2793,21 +2913,21 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Charlestown Chargers",
-   "away": "Newcastle City U14 Mixed Blue",
+   "home": "Newcastle City U14 Mixed Red",
+   "away": "Wallsend DCC Tigers U14",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/63d227f7",
-   "venue": "Hillsborough Oval",
-   "court": "Hillsborough Oval",
-   "address": "Percy Street, HILLSBOROUGH, NSW, 2290",
-   "lat": "-32.9548805884455",
-   "lng": "151.673254966735"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/6c46ee9a",
+   "venue": "Kurraka Oval",
+   "court": "Kurraka Oval",
+   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
+   "lat": "-32.8704155",
+   "lng": "151.6419841"
   },
   {
-   "team": "Newcastle City U14 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
-   "grade": "U14 Division 1",
+   "team": "Newcastle City U14 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
+   "grade": "U14 Division 3",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 3",
@@ -2817,45 +2937,45 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U14 Mixed Blue",
-   "away": "Toronto Kookaburras",
+   "home": "LMJCC U14 Mixed Strikers",
+   "away": "Newcastle City U14 Mixed Red",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/099a03bb",
-   "venue": "Harry Edwards Oval",
-   "court": "Harry Edwards Oval",
-   "address": "Corner Karroola Road and Elder Street, LAMBTON, NSW, 2299",
-   "lat": "-32.91499291",
-   "lng": "151.712471"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/33d79e75",
+   "venue": "John Street Oval",
+   "court": "John Street Oval",
+   "address": "John Street, WARNERS BAY, NSW, 2282",
+   "lat": "-32.97167459",
+   "lng": "151.6437514"
   },
   {
-   "team": "Newcastle City U14 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
-   "grade": "U14 Division 1",
+   "team": "Newcastle City U14 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
+   "grade": "U14 Division 3",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 4",
    "dates": [
     {
      "date": "2026-11-07",
-     "time": "08:30:00"
+     "time": "08:00:00"
     }
    ],
-   "home": "Merewether U14 Gold",
-   "away": "Newcastle City U14 Mixed Blue",
+   "home": "Newcastle City U14 Mixed Red",
+   "away": "Charlestown Wanderers",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/84481b05",
-   "venue": "Empire Park",
-   "court": "Empire Park",
-   "address": "Corner Memorial Drive and Bar Beach Avenue, BAR BEACH, NSW, 2300",
-   "lat": "-32.9412316571705",
-   "lng": "151.765737533569"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/a7d43f83",
+   "venue": "Kurraka Oval",
+   "court": "Kurraka Oval",
+   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
+   "lat": "-32.8704155",
+   "lng": "151.6419841"
   },
   {
-   "team": "Newcastle City U14 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
-   "grade": "U14 Division 1",
+   "team": "Newcastle City U14 Mixed Red",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
+   "grade": "U14 Division 3",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 5",
@@ -2865,16 +2985,112 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U14 Mixed Blue",
-   "away": "WSJCC U14 Red",
+   "home": "WSJCC U14 White",
+   "away": "Newcastle City U14 Mixed Red",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/d3ed4efa",
-   "venue": "Myers Park",
-   "court": "Synthetic",
-   "address": "Melville Road, BROADMEADOW, NSW, 2292",
-   "lat": "-32.9312187003785",
-   "lng": "151.732907295227"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/f7e9dfdc",
+   "venue": "Novocastrian Park",
+   "court": "Novocastrian Park",
+   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
+   "lat": "-32.932513",
+   "lng": "151.709313"
+  },
+  {
+   "team": "Newcastle City U12 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
+   "grade": "U12 Division 3",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "VECC U12 Vampires",
+   "away": "Newcastle City U12 Mixed Blue",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/85d616e9",
+   "venue": "Aitchison Reserve",
+   "court": "Aitchison Reserve",
+   "address": "Lakeview Street, PELICAN, NSW, 2281",
+   "lat": "-33.07601013",
+   "lng": "151.6478398"
+  },
+  {
+   "team": "Newcastle City U12 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
+   "grade": "U12 Division 3",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U12 Mixed Blue",
+   "away": "Wallsend DCC Tigers U12 Black",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/14d8aa1c",
+   "venue": "Upper Reserve",
+   "court": "Oval 1",
+   "address": "Thomas Street, WALLSEND, NSW, 2287",
+   "lat": "-32.907958",
+   "lng": "151.667392"
+  },
+  {
+   "team": "Newcastle City U12 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
+   "grade": "U12 Division 3",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "LMJCC U12 Mixed Scorchers",
+   "away": "Newcastle City U12 Mixed Blue",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/eced05be",
+   "venue": "Federal Park",
+   "court": "Federal Park - Oval #2",
+   "address": "Boscowan Street, WALLSEND, NSW, 2287",
+   "lat": "-32.8980381816052",
+   "lng": "151.670787334442"
+  },
+  {
+   "team": "Newcastle City U12 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
+   "grade": "U12 Division 3",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U12 Mixed Blue",
+   "away": "WSJCC U12 Yellow",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/93392bbb",
+   "venue": "Smith Park (HAMILTON NORTH)",
+   "court": "Oval 1",
+   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
+   "lat": "-32.9152244329867",
+   "lng": "151.735053062438"
   },
   {
    "team": "Newcastle City U12 Mixed Red",
@@ -2997,9 +3213,9 @@
    "lng": "151.73496723175"
   },
   {
-   "team": "Newcastle City U12 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
-   "grade": "U12 Division 3",
+   "team": "Newcastle City U14 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
+   "grade": "U14 Division 1",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 1",
@@ -3009,131 +3225,11 @@
      "time": "08:30:00"
     }
    ],
-   "home": "VECC U12 Vampires",
-   "away": "Newcastle City U12 Mixed Blue",
+   "home": "Newcastle City U14 Mixed Blue",
+   "away": "LMJCC U14 Mixed Thunder",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/85d616e9",
-   "venue": "Aitchison Reserve",
-   "court": "Aitchison Reserve",
-   "address": "Lakeview Street, PELICAN, NSW, 2281",
-   "lat": "-33.07601013",
-   "lng": "151.6478398"
-  },
-  {
-   "team": "Newcastle City U12 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
-   "grade": "U12 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U12 Mixed Blue",
-   "away": "Wallsend DCC Tigers U12 Black",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/14d8aa1c",
-   "venue": "Upper Reserve",
-   "court": "Oval 1",
-   "address": "Thomas Street, WALLSEND, NSW, 2287",
-   "lat": "-32.907958",
-   "lng": "151.667392"
-  },
-  {
-   "team": "Newcastle City U12 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
-   "grade": "U12 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "LMJCC U12 Mixed Scorchers",
-   "away": "Newcastle City U12 Mixed Blue",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/eced05be",
-   "venue": "Federal Park",
-   "court": "Federal Park - Oval #2",
-   "address": "Boscowan Street, WALLSEND, NSW, 2287",
-   "lat": "-32.8980381816052",
-   "lng": "151.670787334442"
-  },
-  {
-   "team": "Newcastle City U12 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u12-mixed-blue/6af1cd3e",
-   "grade": "U12 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-14",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U12 Mixed Blue",
-   "away": "WSJCC U12 Yellow",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u12-division-3/game-centre/93392bbb",
-   "venue": "Smith Park (HAMILTON NORTH)",
-   "court": "Oval 1",
-   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.9152244329867",
-   "lng": "151.735053062438"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
-   "grade": "U14 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Tahs U14 Mixed Navy",
-   "away": "Newcastle City U14 Mixed Red",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/080785a8",
-   "venue": "Waratah Park",
-   "court": "Oval 4 - Synthetic",
-   "address": "Young Street, WARATAH, NSW, 2298",
-   "lat": "-32.9049202885712",
-   "lng": "151.732800006866"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
-   "grade": "U14 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U14 Mixed Red",
-   "away": "Wallsend DCC Tigers U14",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/6c46ee9a",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/1961cc5c",
    "venue": "Kurraka Oval",
    "court": "Kurraka Oval",
    "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
@@ -3141,9 +3237,33 @@
    "lng": "151.6419841"
   },
   {
-   "team": "Newcastle City U14 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
-   "grade": "U14 Division 3",
+   "team": "Newcastle City U14 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
+   "grade": "U14 Division 1",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Charlestown Chargers",
+   "away": "Newcastle City U14 Mixed Blue",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/63d227f7",
+   "venue": "Hillsborough Oval",
+   "court": "Hillsborough Oval",
+   "address": "Percy Street, HILLSBOROUGH, NSW, 2290",
+   "lat": "-32.9548805884455",
+   "lng": "151.673254966735"
+  },
+  {
+   "team": "Newcastle City U14 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
+   "grade": "U14 Division 1",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 3",
@@ -3153,83 +3273,35 @@
      "time": "08:30:00"
     }
    ],
-   "home": "LMJCC U14 Mixed Strikers",
-   "away": "Newcastle City U14 Mixed Red",
+   "home": "Newcastle City U14 Mixed Blue",
+   "away": "Toronto Kookaburras",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/33d79e75",
-   "venue": "John Street Oval",
-   "court": "John Street Oval",
-   "address": "John Street, WARNERS BAY, NSW, 2282",
-   "lat": "-32.97167459",
-   "lng": "151.6437514"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/099a03bb",
+   "venue": "Harry Edwards Oval",
+   "court": "Harry Edwards Oval",
+   "address": "Corner Karroola Road and Elder Street, LAMBTON, NSW, 2299",
+   "lat": "-32.91499291",
+   "lng": "151.712471"
   },
   {
-   "team": "Newcastle City U14 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
-   "grade": "U14 Division 3",
+   "team": "Newcastle City U14 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
+   "grade": "U14 Division 1",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 4",
    "dates": [
     {
      "date": "2026-11-07",
-     "time": "08:00:00"
-    }
-   ],
-   "home": "Newcastle City U14 Mixed Red",
-   "away": "Charlestown Wanderers",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/a7d43f83",
-   "venue": "Kurraka Oval",
-   "court": "Kurraka Oval",
-   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
-   "lat": "-32.8704155",
-   "lng": "151.6419841"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Red",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-red/b30bf385",
-   "grade": "U14 Division 3",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-14",
      "time": "08:30:00"
     }
    ],
-   "home": "WSJCC U14 White",
-   "away": "Newcastle City U14 Mixed Red",
+   "home": "Merewether U14 Gold",
+   "away": "Newcastle City U14 Mixed Blue",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-3/game-centre/f7e9dfdc",
-   "venue": "Novocastrian Park",
-   "court": "Novocastrian Park",
-   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
-   "lat": "-32.932513",
-   "lng": "151.709313"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Seagulls",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
-   "grade": "U14 Division 2",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Merewether U14 Blue",
-   "away": "Newcastle City U14 Mixed Seagulls",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/e192513b",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/84481b05",
    "venue": "Empire Park",
    "court": "Empire Park",
    "address": "Corner Memorial Drive and Bar Beach Avenue, BAR BEACH, NSW, 2300",
@@ -3237,81 +3309,9 @@
    "lng": "151.765737533569"
   },
   {
-   "team": "Newcastle City U14 Mixed Seagulls",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
-   "grade": "U14 Division 2",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U14 Mixed Seagulls",
-   "away": "Charlestown Rangers",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/3c388f21",
-   "venue": "Corroba Oval",
-   "court": "Corroba Oval",
-   "address": "CORROBA PARK, 2 MEREDITH ST, STOCKTON, NSW, 2295",
-   "lat": "-32.896623",
-   "lng": "151.789482"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Seagulls",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
-   "grade": "U14 Division 2",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "HamWicks Colts  U14 Mixed",
-   "away": "Newcastle City U14 Mixed Seagulls",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/d9ede0a9",
-   "venue": "Smith Park (HAMILTON NORTH)",
-   "court": "Oval 3",
-   "address": "Corner Boreas Road and Thorn Road, HAMILTON NORTH, NSW, 2292",
-   "lat": "-32.9160530358541",
-   "lng": "151.733765602111"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Seagulls",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
-   "grade": "U14 Division 2",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "WSJCC U14 Yellow",
-   "away": "Newcastle City U14 Mixed Seagulls",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/ca1a3f7f",
-   "venue": "Novocastrian Park",
-   "court": "Novocastrian Park",
-   "address": "Orchardtown Road, NEW LAMBTON, NSW, 2305",
-   "lat": "-32.932513",
-   "lng": "151.709313"
-  },
-  {
-   "team": "Newcastle City U14 Mixed Seagulls",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-seagulls/a44aab08",
-   "grade": "U14 Division 2",
+   "team": "Newcastle City U14 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u14-mixed-blue/07f027ee",
+   "grade": "U14 Division 1",
    "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
    "assoc": "Newcastle Junior Cricket Association",
    "round": "Round 5",
@@ -3321,16 +3321,136 @@
      "time": "08:30:00"
     }
    ],
-   "home": "Newcastle City U14 Mixed Seagulls",
-   "away": "WSJCC U14 Green",
+   "home": "Newcastle City U14 Mixed Blue",
+   "away": "WSJCC U14 Red",
    "format": "One Day",
    "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-2/game-centre/ef960fec",
-   "venue": "Kurraka Oval",
-   "court": "Kurraka Oval",
-   "address": "Sanctuary Sports Facility - Kurraka Drive, FLETCHER, NSW, 2287",
-   "lat": "-32.8704155",
-   "lng": "151.6419841"
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/u14-division-1/game-centre/d3ed4efa",
+   "venue": "Myers Park",
+   "court": "Synthetic",
+   "address": "Melville Road, BROADMEADOW, NSW, 2292",
+   "lat": "-32.9312187003785",
+   "lng": "151.732907295227"
+  },
+  {
+   "team": "Newcastle City U18 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
+   "grade": "Saturday Youth League Div 4",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 1",
+   "dates": [
+    {
+     "date": "2026-10-17",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U18 Mixed Blue",
+   "away": "LMJCC U15-18 Mixed 6ers",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/c8a911c5",
+   "venue": "Tulootaba Reserve",
+   "court": "Hunter Barnett Field",
+   "address": "4A South St, Windale NSW 2290, Windale, NSW, 2290",
+   "lat": "-32.99400480513565",
+   "lng": "151.68568495019065"
+  },
+  {
+   "team": "Newcastle City U18 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
+   "grade": "Saturday Youth League Div 4",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 2",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "LMJCC U15-18 Mixed Thunder",
+   "away": "Newcastle City U18 Mixed Blue",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/f35f044e",
+   "venue": "John Street Oval",
+   "court": "John Street Oval",
+   "address": "John Street, WARNERS BAY, NSW, 2282",
+   "lat": "-32.97167459",
+   "lng": "151.6437514"
+  },
+  {
+   "team": "Newcastle City U18 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
+   "grade": "Saturday Youth League Div 4",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 3",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U18 Mixed Blue",
+   "away": "HamWicks Colts  U18 Mixed SYL",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/68c691fd",
+   "venue": "Lugar Park",
+   "court": "Lugar Park",
+   "address": "Lugar Street, KOTARA SOUTH, NSW, 2289",
+   "lat": "-32.948981",
+   "lng": "151.692705"
+  },
+  {
+   "team": "Newcastle City U18 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
+   "grade": "Saturday Youth League Div 4",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 4",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "WSJCC u15-18 Green",
+   "away": "Newcastle City U18 Mixed Blue",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/2130c90e",
+   "venue": "Kentish Oval",
+   "court": "Kentish Oval",
+   "address": "Womobin Road, LAMBTON, NSW, 2299",
+   "lat": "-32.91635546",
+   "lng": "151.7177642"
+  },
+  {
+   "team": "Newcastle City U18 Mixed Blue",
+   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
+   "grade": "Saturday Youth League Div 4",
+   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
+   "assoc": "Newcastle Junior Cricket Association",
+   "round": "Round 5",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "08:30:00"
+    }
+   ],
+   "home": "Newcastle City U18 Mixed Blue",
+   "away": "Nelson Bay Makos SYL",
+   "format": "One Day",
+   "status": "Upcoming",
+   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/94c8d04d",
+   "venue": "Lugar Park",
+   "court": "Lugar Park",
+   "address": "Lugar Street, KOTARA SOUTH, NSW, 2289",
+   "lat": "-32.948981",
+   "lng": "151.692705"
   },
   {
    "team": "Newcastle City U14 Mixed T20 bash",
@@ -3691,143 +3811,15 @@
    "address": "Melville Road, BROADMEADOW, NSW, 2292",
    "lat": "-32.9312187003785",
    "lng": "151.732907295227"
-  },
-  {
-   "team": "Newcastle City U18 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
-   "grade": "Saturday Youth League Div 4",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 1",
-   "dates": [
-    {
-     "date": "2026-10-17",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U18 Mixed Blue",
-   "away": "LMJCC U15-18 Mixed 6ers",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/c8a911c5",
-   "venue": "Tulootaba Reserve",
-   "court": "Hunter Barnett Field",
-   "address": "4A South St, Windale NSW 2290, Windale, NSW, 2290",
-   "lat": "-32.99400480513565",
-   "lng": "151.68568495019065"
-  },
-  {
-   "team": "Newcastle City U18 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
-   "grade": "Saturday Youth League Div 4",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 2",
-   "dates": [
-    {
-     "date": "2026-10-24",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "LMJCC U15-18 Mixed Thunder",
-   "away": "Newcastle City U18 Mixed Blue",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/f35f044e",
-   "venue": "John Street Oval",
-   "court": "John Street Oval",
-   "address": "John Street, WARNERS BAY, NSW, 2282",
-   "lat": "-32.97167459",
-   "lng": "151.6437514"
-  },
-  {
-   "team": "Newcastle City U18 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
-   "grade": "Saturday Youth League Div 4",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 3",
-   "dates": [
-    {
-     "date": "2026-10-31",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U18 Mixed Blue",
-   "away": "HamWicks Colts  U18 Mixed SYL",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/68c691fd",
-   "venue": "Lugar Park",
-   "court": "Lugar Park",
-   "address": "Lugar Street, KOTARA SOUTH, NSW, 2289",
-   "lat": "-32.948981",
-   "lng": "151.692705"
-  },
-  {
-   "team": "Newcastle City U18 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
-   "grade": "Saturday Youth League Div 4",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 4",
-   "dates": [
-    {
-     "date": "2026-11-07",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "WSJCC u15-18 Green",
-   "away": "Newcastle City U18 Mixed Blue",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/2130c90e",
-   "venue": "Kentish Oval",
-   "court": "Kentish Oval",
-   "address": "Womobin Road, LAMBTON, NSW, 2299",
-   "lat": "-32.91635546",
-   "lng": "151.7177642"
-  },
-  {
-   "team": "Newcastle City U18 Mixed Blue",
-   "teamUrl": "https://www.playhq.com/cricket-australia/org/newcastle-city-and-eastern-districts-cricket-club/2a11b05e/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/teams/newcastle-city-u18-mixed-blue/168303c6",
-   "grade": "Saturday Youth League Div 4",
-   "comp": "Newcastle Junior Cricket, Boys & Girls (7-17yrs)",
-   "assoc": "Newcastle Junior Cricket Association",
-   "round": "Round 5",
-   "dates": [
-    {
-     "date": "2026-11-14",
-     "time": "08:30:00"
-    }
-   ],
-   "home": "Newcastle City U18 Mixed Blue",
-   "away": "Nelson Bay Makos SYL",
-   "format": "One Day",
-   "status": "Upcoming",
-   "gameUrl": "https://www.playhq.com/cricket-australia/org/newcastle-junior-cricket-association/newcastle-junior-cricket-boys-and-girls-7-17yrs-summer-202627/saturday-youth-league-div-4/game-centre/94c8d04d",
-   "venue": "Lugar Park",
-   "court": "Lugar Park",
-   "address": "Lugar Street, KOTARA SOUTH, NSW, 2289",
-   "lat": "-32.948981",
-   "lng": "151.692705"
   }
  ],
  "idle": [
   {
    "team": "Newcastle City",
-   "grade": ""
-  },
-  {
-   "team": "Newcastle City",
-   "grade": ""
-  },
-  {
-   "team": "Newcastle City",
    "grade": "U16 SG Moore Cup"
   },
   {
-   "team": "Sabres",
+   "team": "Newcastle City",
    "grade": ""
   },
   {
@@ -3835,7 +3827,11 @@
    "grade": ""
   },
   {
-   "team": "Newcastle City Women's 1st Grade",
+   "team": "Newcastle City",
+   "grade": ""
+  },
+  {
+   "team": "Sabres",
    "grade": ""
   },
   {
@@ -3844,6 +3840,10 @@
   },
   {
    "team": "Newcastle City",
+   "grade": ""
+  },
+  {
+   "team": "Newcastle City Women's 1st Grade",
    "grade": ""
   },
   {
