@@ -6,7 +6,7 @@ A one-page site listing every Newcastle City & Eastern Districts CC game, with a
 
 | File | What it does |
 |---|---|
-| `index.html` | The page. Plain HTML/CSS/JS, no build step. Reads `data.json`. Filters: All/Juniors/Seniors, and Past/This Week/Upcoming. |
+| `index.html` | The page. Plain HTML/CSS/JS, no build step. Reads `data.json`. Filters: All/Juniors/Seniors, Home/Away, and Past/This Week/Upcoming. |
 | `data.json` | Every game for the season, past and future. `from`/`to` mark the current Wednesday–Tuesday week, the default view. Rewritten by the script each run. |
 | `basemap.jpg` | Static OpenStreetMap image (zoom 12, lat −32.55 to −33.15, lng 151.35 to 151.95). Pins are placed on it from venue coordinates. |
 | `scripts/fetch-fixtures.mjs` | Node 18+ script, no packages. Finds the club's current seasons and teams on PlayHQ and writes the current week's games to `data.json`. |

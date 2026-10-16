@@ -110,6 +110,11 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
     <button class="chip" id="f-sr" data-f="sr" aria-pressed="false">Seniors</button>
     <span class="count" id="count"></span>
   </div>
+  <div class="bar" role="group" aria-label="Home or away">
+    <button class="chip" id="h-all" data-h="all" aria-pressed="true">Home &amp; Away</button>
+    <button class="chip" id="h-home" data-h="home" aria-pressed="false">Home</button>
+    <button class="chip" id="h-away" data-h="away" aria-pressed="false">Away</button>
+  </div>
   <div class="bar" role="group" aria-label="Time range">
     <button class="chip" id="w-past" data-w="past" aria-pressed="false">Past</button>
     <button class="chip" id="w-week" data-w="week" aria-pressed="true">This Week</button>
@@ -243,20 +248,22 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
 
   let filter='all'; try{filter=localStorage.getItem('ncc-filter')||'all'}catch(e){}
   let when='week'; try{when=localStorage.getItem('ncc-when')||'week'}catch(e){}
+  let ha='all'; try{ha=localStorage.getItem('ncc-ha')||'all'}catch(e){}
   function render(){
     document.querySelectorAll('[data-f]').forEach(c=>c.setAttribute('aria-pressed',c.dataset.f===filter));
+    document.querySelectorAll('[data-h]').forEach(c=>c.setAttribute('aria-pressed',c.dataset.h===ha));
     document.querySelectorAll('[data-w]').forEach(c=>c.setAttribute('aria-pressed',c.dataset.w===when));
     if(when==='week')$('title').textContent='Fixtures · '+fmtShort(data.from)+' – '+fmtShort(data.to);
     else if(when==='upcoming')$('title').textContent='Upcoming fixtures';
     else $('title').textContent='Past fixtures';
     const inRange=r=>when==='week'?(r.date>=data.from&&r.date<=data.to):when==='past'?r.date<data.from:r.date>data.to;
-    let list=rows.filter(r=>(filter==='all'||(filter==='jr')===isJr(r))&&inRange(r));
+    let list=rows.filter(r=>(filter==='all'||(filter==='jr')===isJr(r))&&(ha==='all'||(ha==='home')===r.home)&&inRange(r));
     if(when==='past')list=list.slice().reverse();
     $('count').textContent=list.length+' game'+(list.length===1?'':'s');
     $('idle').hidden=when!=='week'||!idleHtml;
     closeTip(true); byDayAll={}; list.forEach(r=>(byDayAll[r.date]=byDayAll[r.date]||[]).push(r));
     buildVenues(list); fit();
-    if(!list.length){const msg=when==='week'?'No games listed on PlayHQ for this week.':when==='past'?'No past games found.':'No upcoming games found.';
+    if(!list.length){const msg=(filter!=='all'||ha!=='all')?'No games match these filters.':when==='week'?'No games listed on PlayHQ for this week.':when==='past'?'No past games found.':'No upcoming games found.';
       $('days').innerHTML='<div class="empty">'+msg+'</div>';return}
     $('days').innerHTML=Object.keys(byDayAll).sort().map(day=>{
       const bySlot={}; byDayAll[day].forEach(r=>(bySlot[r.time]=bySlot[r.time]||[]).push(r));
@@ -278,6 +285,7 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,6vw,2.9rem);l
     });
   }
   document.querySelectorAll('[data-f]').forEach(c=>c.addEventListener('click',()=>{filter=c.dataset.f;try{localStorage.setItem('ncc-filter',filter)}catch(e){}render()}));
+  document.querySelectorAll('[data-h]').forEach(c=>c.addEventListener('click',()=>{ha=c.dataset.h;try{localStorage.setItem('ncc-ha',ha)}catch(e){}render()}));
   document.querySelectorAll('[data-w]').forEach(c=>c.addEventListener('click',()=>{when=c.dataset.w;try{localStorage.setItem('ncc-when',when)}catch(e){}render()}));
 
   const idle=(data.idle||[]).filter(i=>i.grade);
